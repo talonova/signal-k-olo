@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d7c6c0d7b989db49b7c4b298b38ee69, type: 3}
+  m_Name: Weekly Fertilizer Event
+  m_EditorClassIdentifier: 
+  id: d51139c6-c9f4-4a58-9ffd-b636e363eb06
+  _luaUnlockCondition: ((Variable["ColonyDate"] - Actor["Government"].FertilizerDeliveryDay)
+    % Actor["Government"].FertilizerFrequency == 0);
+  _email: {fileID: 11400000, guid: 9637a20df58e6eb43a9b71be41961477, type: 2}
+  Item: {fileID: 11400000, guid: 6f947949e365e604ab22d1b8927f1674, type: 2}
+  _amount: 5

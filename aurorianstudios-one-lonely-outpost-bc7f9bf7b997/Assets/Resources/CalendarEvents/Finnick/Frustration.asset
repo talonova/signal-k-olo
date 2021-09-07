@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d9306d20d102fb34e8096d995fdd42cb, type: 3}
+  m_Name: Frustration
+  m_EditorClassIdentifier: 
+  id: c51e4aee-4160-447d-b93a-9b19932255d4
+  _luaUnlockCondition: CheckIfEventOccurred("dde2d872-5cf7-4795-8caf-fa5cc562f7ad")
+    and CheckIfEventOccurred("230978bd-00f6-4c04-968c-353d30d7a789")
+  _isRepeatable: 0
+  _instance: 0
+  _cutsceneManifest: {fileID: 11400000, guid: b00d5ec25933eb446adfa902d61468b1, type: 2}
+  _luaPlayCondition: (Variable["CurrentRoom"] == "Colony Outdoors") and (Variable["ColonyTime"]
+    >= 48) and (Variable["ColonyTime"] <= 114)

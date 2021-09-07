@@ -1,0 +1,5548 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4784527548252730755
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4784527548252730752}
+  - component: {fileID: 4784527548252730753}
+  m_Layer: 5
+  m_Name: GameObject
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &4784527548252730752
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4784527548252730755}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.1}
+  m_AnchorMax: {x: 0.5, y: 0.1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0}
+--- !u!114 &4784527548252730753
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4784527548252730755}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0f7051d43c6eceb48bbc46842a2be77f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  plantType: {fileID: 11400000, guid: b6678e4040dbe9c4d834628834a4374c, type: 2}
+  terminalLeafSet: {fileID: 11400000, guid: f1f7679803bd80c46808b1083bda43b9, type: 2}
+  axialLeafSet: {fileID: 11400000, guid: 87624ada947853b42bf71b329af02c12, type: 2}
+  stemColors:
+  - serializedVersion: 2
+    rgba: 4282768742
+  - serializedVersion: 2
+    rgba: 4283084629
+  - serializedVersion: 2
+    rgba: 4282480429
+  stemOutlineColor:
+    serializedVersion: 2
+    rgba: 4282465325
+  _plant:
+    id: 0
+  root: {fileID: 0}
+  asdf: 1
+  references:
+    version: 1
+    00000000:
+      type: {class: Proto_PlantType/ProtoPlant, ns: PlantMiniGame, asm: Assembly-CSharp}
+      data:
+        rootSystemSize: 238
+        stem:
+          location:
+            isRoot: 1
+            _node:
+              id: 1
+            _positionFromCenter: 0
+          depth: 0
+          age: 0
+          lengthRand: 0
+          node:
+            id: 2
+        plantType: {fileID: 11400000, guid: b6678e4040dbe9c4d834628834a4374c, type: 2}
+    00000001:
+      type: {class: , ns: , asm: }
+    00000002:
+      type: {class: Node, ns: PlantMiniGame, asm: Assembly-CSharp}
+      data:
+        _parent:
+          id: 3
+        centerIndex: 1
+        paths:
+        - _location:
+            isRoot: 0
+            _node:
+              id: 2
+            _positionFromCenter: -1
+          _segment:
+            id: 4
+          _leaf:
+            id: 1
+        - _location:
+            isRoot: 0
+            _node:
+              id: 2
+            _positionFromCenter: 0
+          _segment:
+            id: 5
+          _leaf:
+            id: 1
+        - _location:
+            isRoot: 0
+            _node:
+              id: 2
+            _positionFromCenter: 1
+          _segment:
+            id: 6
+          _leaf:
+            id: 1
+        size: 0
+        age: 0
+    00000003:
+      type: {class: Segment, ns: PlantMiniGame, asm: Assembly-CSharp}
+      data:
+        location:
+          isRoot: 1
+          _node:
+            id: 1
+          _positionFromCenter: 0
+        depth: 0
+        age: 0
+        lengthRand: 0
+        node:
+          id: 2
+    00000004:
+      type: {class: Segment, ns: PlantMiniGame, asm: Assembly-CSharp}
+      data:
+        location:
+          isRoot: 0
+          _node:
+            id: 2
+          _positionFromCenter: -1
+        depth: 1
+        age: 0
+        lengthRand: 0.57743376
+        node:
+          id: 7
+    00000005:
+      type: {class: Segment, ns: PlantMiniGame, asm: Assembly-CSharp}
+      data:
+        location:
+          isRoot: 0
+          _node:
+            id: 2
+          _positionFromCenter: 0
+        depth: 1
+        age: 0
+        lengthRand: 0.99961376
+        node:
+          id: 8
+    00000006:
+      type: {class: Segment, ns: PlantMiniGame, asm: Assembly-CSharp}
+      data:
+        location:
+          isRoot: 0
+          _node:
+            id: 2
+          _positionFromCenter: 1
+        depth: 1
+        age: 0
+        lengthRand: 0.10614039
+        node:
+          id: 9
+    00000007:
+      type: {class: Node, ns: PlantMiniGame, asm: Assembly-CSharp}
+      data:
+        _parent:
+          id: 4
+        centerIndex: 1
+        paths:
+        - _location:
+            isRoot: 0
+            _node:
+              id: 7
+            _positionFromCenter: -1
+          _segment:
+            id: 10
+          _leaf:
+            id: 1
+        - _location:
+            isRoot: 0
+            _node:
+              id: 7
+            _positionFromCenter: 0
+          _segment:
+            id: 11
+          _leaf:
+            id: 1
+        - _location:
+            isRoot: 0
+            _node:
+              id: 7
+            _positionFromCenter: 1
+          _segment:
+            id: 12
+          _leaf:
+            id: 1
+        size: 0
+        age: 0
+    00000008:
+      type: {class: Node, ns: PlantMiniGame, asm: Assembly-CSharp}
+      data:
+        _parent:
+          id: 5
+        centerIndex: 1
+        paths:
+        - _location:
+            isRoot: 0
+            _node:
+              id: 8
+            _positionFromCenter: -1
+          _segment:
+            id: 13
+          _leaf:
+            id: 1
+        - _location:
+            isRoot: 0
+            _node:
+              id: 8
+            _positionFromCenter: 0
+          _segment:
+            id: 14
+          _leaf:
+            id: 1
+        - _location:
+            isRoot: 0
+            _node:
+              id: 8
+            _positionFromCenter: 1
+          _segment:
+            id: 15
+          _leaf:
+            id: 1
+        size: 0
+        age: 0
+    00000009:
+      type: {class: Node, ns: PlantMiniGame, asm: Assembly-CSharp}
+      data:
+        _parent:
+          id: 6
+        centerIndex: 1
+        paths:
+        - _location:
+            isRoot: 0
+            _node:
+              id: 9
+            _positionFromCenter: -1
+          _segment:
+            id: 16
+          _leaf:
+            id: 1
+        - _location:
+            isRoot: 0
+            _node:
+              id: 9
+            _positionFromCenter: 0
+          _segment:
+            id: 17
+          _leaf:
+            id: 1
+        - _location:
+            isRoot: 0
+            _node:
+              id: 9
+            _positionFromCenter: 1
+          _segment:
+            id: 18
+          _leaf:
+            id: 1
+        size: 0
+        age: 0
+    0000000A:
+      type: {class: Segment, ns: PlantMiniGame, asm: Assembly-CSharp}
+      data:
+        location:
+          isRoot: 0
+          _node:
+            id: 7
+          _positionFromCenter: -1
+        depth: 2
+        age: 0
+        lengthRand: 0.46796697
+        node:
+          id: 19
+    0000000B:
+      type: {class: Segment, ns: PlantMiniGame, asm: Assembly-CSharp}
+      data:
+        location:
+          isRoot: 0
+          _node:
+            id: 7
+          _positionFromCenter: 0
+        depth: 2
+        age: 0
+        lengthRand: 0.0812291
+        node:
+          id: 20
+    0000000C:
+      type: {class: Segment, ns: PlantMiniGame, asm: Assembly-CSharp}
+      data:
+        location:
+          isRoot: 0
+          _node:
+            id: 7
+          _positionFromCenter: 1
+        depth: 2
+        age: 0
+        lengthRand: 0.2843062
+        node:
+          id: 21
+    0000000D:
+      type: {class: Segment, ns: PlantMiniGame, asm: Assembly-CSharp}
+      data:
+        location:
+          isRoot: 0
+          _node:
+            id: 8
+          _positionFromCenter: -1
+        depth: 2
+        age: 0
+        lengthRand: 0.8663386
+        node:
+          id: 22
+    0000000E:
+      type: {class: Segment, ns: PlantMiniGame, asm: Assembly-CSharp}
+      data:
+        location:
+          isRoot: 0
+          _node:
+            id: 8
+          _positionFromCenter: 0
+        depth: 2
+        age: 0
+        lengthRand: 0.5285496
+        node:
+          id: 23
+    0000000F:
+      type: {class: Segment, ns: PlantMiniGame, asm: Assembly-CSharp}
+      data:
+        location:
+          isRoot: 0
+          _node:
+            id: 8
+          _positionFromCenter: 1
+        depth: 2
+        age: 0
+        lengthRand: 0.9563745
+        node:
+          id: 24
+    00000010:
+      type: {class: Segment, ns: PlantMiniGame, asm: Assembly-CSharp}
+      data:
+        location:
+          isRoot: 0
+          _node:
+            id: 9
+          _positionFromCenter: -1
+        depth: 2
+        age: 0
+        lengthRand: 0.6434123
+        node:
+          id: 25
+    00000011:
+      type: {class: Segment, ns: PlantMiniGame, asm: Assembly-CSharp}
+      data:
+        location:
+          isRoot: 0
+          _node:
+            id: 9
+          _positionFromCenter: 0
+        depth: 2
+        age: 0
+        lengthRand: 0.59324807
+        node:
+          id: 26
+    00000012:
+      type: {class: Segment, ns: PlantMiniGame, asm: Assembly-CSharp}
+      data:
+        location:
+          isRoot: 0
+          _node:
+            id: 9
+          _positionFromCenter: 1
+        depth: 2
+        age: 0
+        lengthRand: 0.062367804
+        node:
+          id: 27
+    00000013:
+      type: {class: Node, ns: PlantMiniGame, asm: Assembly-CSharp}
+      data:
+        _parent:
+          id: 10
+        centerIndex: 1
+        paths:
+        - _location:
+            isRoot: 0
+            _node:
+              id: 19
+            _positionFromCenter: -1
+          _segment:
+            id: 1
+          _leaf:
+            id: 28
+        - _location:
+            isRoot: 0
+            _node:
+              id: 19
+            _positionFromCenter: 0
+          _segment:
+            id: 29
+          _leaf:
+            id: 1
+        - _location:
+            isRoot: 0
+            _node:
+              id: 19
+            _positionFromCenter: 1
+          _segment:
+            id: 1
+          _leaf:
+            id: 30
+        size: 0
+        age: 0
+    00000014:
+      type: {class: Node, ns: PlantMiniGame, asm: Assembly-CSharp}
+      data:
+        _parent:
+          id: 11
+        centerIndex: 1
+        paths:
+        - _location:
+            isRoot: 0
+            _node:
+              id: 20
+            _positionFromCenter: -1
+          _segment:
+            id: 31
+          _leaf:
+            id: 1
+        - _location:
+            isRoot: 0
+            _node:
+              id: 20
+            _positionFromCenter: 0
+          _segment:
+            id: 32
+          _leaf:
+            id: 1
+        - _location:
+            isRoot: 0
+            _node:
+              id: 20
+            _positionFromCenter: 1
+          _segment:
+            id: 33
+          _leaf:
+            id: 1
+        size: 0
+        age: 0
+    00000015:
+      type: {class: Node, ns: PlantMiniGame, asm: Assembly-CSharp}
+      data:
+        _parent:
+          id: 12
+        centerIndex: 1
+        paths:
+        - _location:
+            isRoot: 0
+            _node:
+              id: 21
+            _positionFromCenter: -1
+          _segment:
+            id: 1
+          _leaf:
+            id: 34
+        - _location:
+            isRoot: 0
+            _node:
+              id: 21
+            _positionFromCenter: 0
+          _segment:
+            id: 35
+          _leaf:
+            id: 1
+        - _location:
+            isRoot: 0
+            _node:
+              id: 21
+            _positionFromCenter: 1
+          _segment:
+            id: 1
+          _leaf:
+            id: 36
+        size: 0
+        age: 0
+    00000016:
+      type: {class: Node, ns: PlantMiniGame, asm: Assembly-CSharp}
+      data:
+        _parent:
+          id: 13
+        centerIndex: 1
+        paths:
+        - _location:
+            isRoot: 0
+            _node:
+              id: 22
+            _positionFromCenter: -1
+          _segment:
+            id: 37
+          _leaf:
+            id: 1
+        - _location:
+            isRoot: 0
+            _node:
+              id: 22
+            _positionFromCenter: 0
+          _segment:
+            id: 38
+          _leaf:
+            id: 1
+        - _location:
+            isRoot: 0
+            _node:
+              id: 22
+            _positionFromCenter: 1
+          _segment:
+            id: 39
+          _leaf:
+            id: 1
+        size: 0
+        age: 0
+    00000017:
+      type: {class: Node, ns: PlantMiniGame, asm: Assembly-CSharp}
+      data:
+        _parent:
+          id: 14
+        centerIndex: 1
+        paths:
+        - _location:
+            isRoot: 0
+            _node:
+              id: 23
+            _positionFromCenter: -1
+          _segment:
+            id: 40
+          _leaf:
+            id: 1
+        - _location:
+            isRoot: 0
+            _node:
+              id: 23
+            _positionFromCenter: 0
+          _segment:
+            id: 41
+          _leaf:
+            id: 1
+        - _location:
+            isRoot: 0
+            _node:
+              id: 23
+            _positionFromCenter: 1
+          _segment:
+            id: 1
+          _leaf:
+            id: 42
+        size: 0
+        age: 0
+    00000018:
+      type: {class: Node, ns: PlantMiniGame, asm: Assembly-CSharp}
+      data:
+        _parent:
+          id: 15
+        centerIndex: 1
+        paths:
+        - _location:
+            isRoot: 0
+            _node:
+              id: 24
+            _positionFromCenter: -1
+          _segment:
+            id: 1
+          _leaf:
+            id: 43
+        - _location:
+            isRoot: 0
+            _node:
+              id: 24
+            _positionFromCenter: 0
+          _segment:
+            id: 44
+          _leaf:
+            id: 1
+        - _location:
+            isRoot: 0
+            _node:
+              id: 24
+            _positionFromCenter: 1
+          _segment:
+            id: 45
+          _leaf:
+            id: 1
+        size: 0
+        age: 0
+    00000019:
+      type: {class: Node, ns: PlantMiniGame, asm: Assembly-CSharp}
+      data:
+        _parent:
+          id: 16
+        centerIndex: 1
+        paths:
+        - _location:
+            isRoot: 0
+            _node:
+              id: 25
+            _positionFromCenter: -1
+          _segment:
+            id: 1
+          _leaf:
+            id: 46
+        - _location:
+            isRoot: 0
+            _node:
+              id: 25
+            _positionFromCenter: 0
+          _segment:
+            id: 47
+          _leaf:
+            id: 1
+        - _location:
+            isRoot: 0
+            _node:
+              id: 25
+            _positionFromCenter: 1
+          _segment:
+            id: 1
+          _leaf:
+            id: 48
+        size: 0
+        age: 0
+    0000001A:
+      type: {class: Node, ns: PlantMiniGame, asm: Assembly-CSharp}
+      data:
+        _parent:
+          id: 17
+        centerIndex: 1
+        paths:
+        - _location:
+            isRoot: 0
+            _node:
+              id: 26
+            _positionFromCenter: -1
+          _segment:
+            id: 49
+          _leaf:
+            id: 1
+        - _location:
+            isRoot: 0
+            _node:
+              id: 26
+            _positionFromCenter: 0
+          _segment:
+            id: 50
+          _leaf:
+            id: 1
+        - _location:
+            isRoot: 0
+            _node:
+              id: 26
+            _positionFromCenter: 1
+          _segment:
+            id: 51
+          _leaf:
+            id: 1
+        size: 0
+        age: 0
+    0000001B:
+      type: {class: Node, ns: PlantMiniGame, asm: Assembly-CSharp}
+      data:
+        _parent:
+          id: 18
+        centerIndex: 1
+        paths:
+        - _location:
+            isRoot: 0
+            _node:
+              id: 27
+            _positionFromCenter: -1
+          _segment:
+            id: 1
+          _leaf:
+            id: 52
+        - _location:
+            isRoot: 0
+            _node:
+              id: 27
+            _positionFromCenter: 0
+          _segment:
+            id: 53
+          _leaf:
+            id: 1
+        - _location:
+            isRoot: 0
+            _node:
+              id: 27
+            _positionFromCenter: 1
+          _segment:
+            id: 1
+          _leaf:
+            id: 54
+        size: 0
+        age: 0
+    0000001C:
+      type: {class: Leaf, ns: PlantMiniGame, asm: Assembly-CSharp}
+      data:
+        _location:
+          isRoot: 0
+          _node:
+            id: 19
+          _positionFromCenter: -1
+        dirt: 0.95506644
+        condition: 0
+    0000001D:
+      type: {class: Segment, ns: PlantMiniGame, asm: Assembly-CSharp}
+      data:
+        location:
+          isRoot: 0
+          _node:
+            id: 19
+          _positionFromCenter: 0
+        depth: 3
+        age: 0
+        lengthRand: 0.38613337
+        node:
+          id: 55
+    0000001E:
+      type: {class: Leaf, ns: PlantMiniGame, asm: Assembly-CSharp}
+      data:
+        _location:
+          isRoot: 0
+          _node:
+            id: 19
+          _positionFromCenter: 1
+        dirt: 1.0369859
+        condition: 1
+    0000001F:
+      type: {class: Segment, ns: PlantMiniGame, asm: Assembly-CSharp}
+      data:
+        location:
+          isRoot: 0
+          _node:
+            id: 20
+          _positionFromCenter: -1
+        depth: 3
+        age: 0
+        lengthRand: 0.33390322
+        node:
+          id: 56
+    00000020:
+      type: {class: Segment, ns: PlantMiniGame, asm: Assembly-CSharp}
+      data:
+        location:
+          isRoot: 0
+          _node:
+            id: 20
+          _positionFromCenter: 0
+        depth: 3
+        age: 0
+        lengthRand: 0.71734387
+        node:
+          id: 57
+    00000021:
+      type: {class: Segment, ns: PlantMiniGame, asm: Assembly-CSharp}
+      data:
+        location:
+          isRoot: 0
+          _node:
+            id: 20
+          _positionFromCenter: 1
+        depth: 3
+        age: 0
+        lengthRand: 0.2778621
+        node:
+          id: 58
+    00000022:
+      type: {class: Leaf, ns: PlantMiniGame, asm: Assembly-CSharp}
+      data:
+        _location:
+          isRoot: 0
+          _node:
+            id: 21
+          _positionFromCenter: -1
+        dirt: 0.3747149
+        condition: 0
+    00000023:
+      type: {class: Segment, ns: PlantMiniGame, asm: Assembly-CSharp}
+      data:
+        location:
+          isRoot: 0
+          _node:
+            id: 21
+          _positionFromCenter: 0
+        depth: 3
+        age: 0
+        lengthRand: 0.4991973
+        node:
+          id: 59
+    00000024:
+      type: {class: Leaf, ns: PlantMiniGame, asm: Assembly-CSharp}
+      data:
+        _location:
+          isRoot: 0
+          _node:
+            id: 21
+          _positionFromCenter: 1
+        dirt: 0.44996414
+        condition: 0
+    00000025:
+      type: {class: Segment, ns: PlantMiniGame, asm: Assembly-CSharp}
+      data:
+        location:
+          isRoot: 0
+          _node:
+            id: 22
+          _positionFromCenter: -1
+        depth: 3
+        age: 0
+        lengthRand: 0.78346395
+        node:
+          id: 60
+    00000026:
+      type: {class: Segment, ns: PlantMiniGame, asm: Assembly-CSharp}
+      data:
+        location:
+          isRoot: 0
+          _node:
+            id: 22
+          _positionFromCenter: 0
+        depth: 3
+        age: 0
+        lengthRand: 0.014670493
+        node:
+          id: 61
+    00000027:
+      type: {class: Segment, ns: PlantMiniGame, asm: Assembly-CSharp}
+      data:
+        location:
+          isRoot: 0
+          _node:
+            id: 22
+          _positionFromCenter: 1
+        depth: 3
+        age: 0
+        lengthRand: 0.795035
+        node:
+          id: 62
+    00000028:
+      type: {class: Segment, ns: PlantMiniGame, asm: Assembly-CSharp}
+      data:
+        location:
+          isRoot: 0
+          _node:
+            id: 23
+          _positionFromCenter: -1
+        depth: 3
+        age: 0
+        lengthRand: 0.037859682
+        node:
+          id: 63
+    00000029:
+      type: {class: Segment, ns: PlantMiniGame, asm: Assembly-CSharp}
+      data:
+        location:
+          isRoot: 0
+          _node:
+            id: 23
+          _positionFromCenter: 0
+        depth: 3
+        age: 0
+        lengthRand: 0.24937275
+        node:
+          id: 64
+    0000002A:
+      type: {class: Leaf, ns: PlantMiniGame, asm: Assembly-CSharp}
+      data:
+        _location:
+          isRoot: 0
+          _node:
+            id: 23
+          _positionFromCenter: 1
+        dirt: 1.3553847
+        condition: 0
+    0000002B:
+      type: {class: Leaf, ns: PlantMiniGame, asm: Assembly-CSharp}
+      data:
+        _location:
+          isRoot: 0
+          _node:
+            id: 24
+          _positionFromCenter: -1
+        dirt: 0.72432184
+        condition: 0
+    0000002C:
+      type: {class: Segment, ns: PlantMiniGame, asm: Assembly-CSharp}
+      data:
+        location:
+          isRoot: 0
+          _node:
+            id: 24
+          _positionFromCenter: 0
+        depth: 3
+        age: 0
+        lengthRand: 0.358166
+        node:
+          id: 65
+    0000002D:
+      type: {class: Segment, ns: PlantMiniGame, asm: Assembly-CSharp}
+      data:
+        location:
+          isRoot: 0
+          _node:
+            id: 24
+          _positionFromCenter: 1
+        depth: 3
+        age: 0
+        lengthRand: 0.7654879
+        node:
+          id: 66
+    0000002E:
+      type: {class: Leaf, ns: PlantMiniGame, asm: Assembly-CSharp}
+      data:
+        _location:
+          isRoot: 0
+          _node:
+            id: 25
+          _positionFromCenter: -1
+        dirt: 0.8390218
+        condition: 0
+    0000002F:
+      type: {class: Segment, ns: PlantMiniGame, asm: Assembly-CSharp}
+      data:
+        location:
+          isRoot: 0
+          _node:
+            id: 25
+          _positionFromCenter: 0
+        depth: 3
+        age: 0
+        lengthRand: 0.78575635
+        node:
+          id: 67
+    00000030:
+      type: {class: Leaf, ns: PlantMiniGame, asm: Assembly-CSharp}
+      data:
+        _location:
+          isRoot: 0
+          _node:
+            id: 25
+          _positionFromCenter: 1
+        dirt: 0.6788735
+        condition: 1
+    00000031:
+      type: {class: Segment, ns: PlantMiniGame, asm: Assembly-CSharp}
+      data:
+        location:
+          isRoot: 0
+          _node:
+            id: 26
+          _positionFromCenter: -1
+        depth: 3
+        age: 0
+        lengthRand: 0.35342863
+        node:
+          id: 68
+    00000032:
+      type: {class: Segment, ns: PlantMiniGame, asm: Assembly-CSharp}
+      data:
+        location:
+          isRoot: 0
+          _node:
+            id: 26
+          _positionFromCenter: 0
+        depth: 3
+        age: 0
+        lengthRand: 0.9058261
+        node:
+          id: 69
+    00000033:
+      type: {class: Segment, ns: PlantMiniGame, asm: Assembly-CSharp}
+      data:
+        location:
+          isRoot: 0
+          _node:
+            id: 26
+          _positionFromCenter: 1
+        depth: 3
+        age: 0
+        lengthRand: 0.98671997
+        node:
+          id: 70
+    00000034:
+      type: {class: Leaf, ns: PlantMiniGame, asm: Assembly-CSharp}
+      data:
+        _location:
+          isRoot: 0
+          _node:
+            id: 27
+          _positionFromCenter: -1
+        dirt: 0.6342263
+        condition: 0
+    00000035:
+      type: {class: Segment, ns: PlantMiniGame, asm: Assembly-CSharp}
+      data:
+        location:
+          isRoot: 0
+          _node:
+            id: 27
+          _positionFromCenter: 0
+        depth: 3
+        age: 0
+        lengthRand: 0.6563099
+        node:
+          id: 71
+    00000036:
+      type: {class: Leaf, ns: PlantMiniGame, asm: Assembly-CSharp}
+      data:
+        _location:
+          isRoot: 0
+          _node:
+            id: 27
+          _positionFromCenter: 1
+        dirt: 0.78882885
+        condition: 0
+    00000037:
+      type: {class: Node, ns: PlantMiniGame, asm: Assembly-CSharp}
+      data:
+        _parent:
+          id: 29
+        centerIndex: 1
+        paths:
+        - _location:
+            isRoot: 0
+            _node:
+              id: 55
+            _positionFromCenter: -1
+          _segment:
+            id: 1
+          _leaf:
+            id: 72
+        - _location:
+            isRoot: 0
+            _node:
+              id: 55
+            _positionFromCenter: 0
+          _segment:
+            id: 1
+          _leaf:
+            id: 73
+        - _location:
+            isRoot: 0
+            _node:
+              id: 55
+            _positionFromCenter: 1
+          _segment:
+            id: 1
+          _leaf:
+            id: 74
+        size: 0
+        age: 0
+    00000038:
+      type: {class: Node, ns: PlantMiniGame, asm: Assembly-CSharp}
+      data:
+        _parent:
+          id: 31
+        centerIndex: 1
+        paths:
+        - _location:
+            isRoot: 0
+            _node:
+              id: 56
+            _positionFromCenter: -1
+          _segment:
+            id: 1
+          _leaf:
+            id: 75
+        - _location:
+            isRoot: 0
+            _node:
+              id: 56
+            _positionFromCenter: 0
+          _segment:
+            id: 76
+          _leaf:
+            id: 1
+        - _location:
+            isRoot: 0
+            _node:
+              id: 56
+            _positionFromCenter: 1
+          _segment:
+            id: 1
+          _leaf:
+            id: 77
+        size: 0
+        age: 0
+    00000039:
+      type: {class: Node, ns: PlantMiniGame, asm: Assembly-CSharp}
+      data:
+        _parent:
+          id: 32
+        centerIndex: 1
+        paths:
+        - _location:
+            isRoot: 0
+            _node:
+              id: 57
+            _positionFromCenter: -1
+          _segment:
+            id: 78
+          _leaf:
+            id: 1
+        - _location:
+            isRoot: 0
+            _node:
+              id: 57
+            _positionFromCenter: 0
+          _segment:
+            id: 79
+          _leaf:
+            id: 1
+        - _location:
+            isRoot: 0
+            _node:
+              id: 57
+            _positionFromCenter: 1
+          _segment:
+            id: 80
+          _leaf:
+            id: 1
+        size: 0
+        age: 0
+    0000003A:
+      type: {class: Node, ns: PlantMiniGame, asm: Assembly-CSharp}
+      data:
+        _parent:
+          id: 33
+        centerIndex: 1
+        paths:
+        - _location:
+            isRoot: 0
+            _node:
+              id: 58
+            _positionFromCenter: -1
+          _segment:
+            id: 81
+          _leaf:
+            id: 1
+        - _location:
+            isRoot: 0
+            _node:
+              id: 58
+            _positionFromCenter: 0
+          _segment:
+            id: 82
+          _leaf:
+            id: 1
+        - _location:
+            isRoot: 0
+            _node:
+              id: 58
+            _positionFromCenter: 1
+          _segment:
+            id: 83
+          _leaf:
+            id: 1
+        size: 0
+        age: 0
+    0000003B:
+      type: {class: Node, ns: PlantMiniGame, asm: Assembly-CSharp}
+      data:
+        _parent:
+          id: 35
+        centerIndex: 1
+        paths:
+        - _location:
+            isRoot: 0
+            _node:
+              id: 59
+            _positionFromCenter: -1
+          _segment:
+            id: 1
+          _leaf:
+            id: 84
+        - _location:
+            isRoot: 0
+            _node:
+              id: 59
+            _positionFromCenter: 0
+          _segment:
+            id: 1
+          _leaf:
+            id: 85
+        - _location:
+            isRoot: 0
+            _node:
+              id: 59
+            _positionFromCenter: 1
+          _segment:
+            id: 1
+          _leaf:
+            id: 86
+        size: 0
+        age: 0
+    0000003C:
+      type: {class: Node, ns: PlantMiniGame, asm: Assembly-CSharp}
+      data:
+        _parent:
+          id: 37
+        centerIndex: 1
+        paths:
+        - _location:
+            isRoot: 0
+            _node:
+              id: 60
+            _positionFromCenter: -1
+          _segment:
+            id: 1
+          _leaf:
+            id: 87
+        - _location:
+            isRoot: 0
+            _node:
+              id: 60
+            _positionFromCenter: 0
+          _segment:
+            id: 1
+          _leaf:
+            id: 88
+        - _location:
+            isRoot: 0
+            _node:
+              id: 60
+            _positionFromCenter: 1
+          _segment:
+            id: 1
+          _leaf:
+            id: 89
+        size: 0
+        age: 0
+    0000003D:
+      type: {class: Node, ns: PlantMiniGame, asm: Assembly-CSharp}
+      data:
+        _parent:
+          id: 38
+        centerIndex: 1
+        paths:
+        - _location:
+            isRoot: 0
+            _node:
+              id: 61
+            _positionFromCenter: -1
+          _segment:
+            id: 90
+          _leaf:
+            id: 1
+        - _location:
+            isRoot: 0
+            _node:
+              id: 61
+            _positionFromCenter: 0
+          _segment:
+            id: 91
+          _leaf:
+            id: 1
+        - _location:
+            isRoot: 0
+            _node:
+              id: 61
+            _positionFromCenter: 1
+          _segment:
+            id: 92
+          _leaf:
+            id: 1
+        size: 0
+        age: 0
+    0000003E:
+      type: {class: Node, ns: PlantMiniGame, asm: Assembly-CSharp}
+      data:
+        _parent:
+          id: 39
+        centerIndex: 1
+        paths:
+        - _location:
+            isRoot: 0
+            _node:
+              id: 62
+            _positionFromCenter: -1
+          _segment:
+            id: 1
+          _leaf:
+            id: 93
+        - _location:
+            isRoot: 0
+            _node:
+              id: 62
+            _positionFromCenter: 0
+          _segment:
+            id: 1
+          _leaf:
+            id: 94
+        - _location:
+            isRoot: 0
+            _node:
+              id: 62
+            _positionFromCenter: 1
+          _segment:
+            id: 1
+          _leaf:
+            id: 95
+        size: 0
+        age: 0
+    0000003F:
+      type: {class: Node, ns: PlantMiniGame, asm: Assembly-CSharp}
+      data:
+        _parent:
+          id: 40
+        centerIndex: 1
+        paths:
+        - _location:
+            isRoot: 0
+            _node:
+              id: 63
+            _positionFromCenter: -1
+          _segment:
+            id: 1
+          _leaf:
+            id: 96
+        - _location:
+            isRoot: 0
+            _node:
+              id: 63
+            _positionFromCenter: 0
+          _segment:
+            id: 1
+          _leaf:
+            id: 97
+        - _location:
+            isRoot: 0
+            _node:
+              id: 63
+            _positionFromCenter: 1
+          _segment:
+            id: 1
+          _leaf:
+            id: 98
+        size: 0
+        age: 0
+    00000040:
+      type: {class: Node, ns: PlantMiniGame, asm: Assembly-CSharp}
+      data:
+        _parent:
+          id: 41
+        centerIndex: 1
+        paths:
+        - _location:
+            isRoot: 0
+            _node:
+              id: 64
+            _positionFromCenter: -1
+          _segment:
+            id: 99
+          _leaf:
+            id: 1
+        - _location:
+            isRoot: 0
+            _node:
+              id: 64
+            _positionFromCenter: 0
+          _segment:
+            id: 100
+          _leaf:
+            id: 1
+        - _location:
+            isRoot: 0
+            _node:
+              id: 64
+            _positionFromCenter: 1
+          _segment:
+            id: 101
+          _leaf:
+            id: 1
+        size: 0
+        age: 0
+    00000041:
+      type: {class: Node, ns: PlantMiniGame, asm: Assembly-CSharp}
+      data:
+        _parent:
+          id: 44
+        centerIndex: 1
+        paths:
+        - _location:
+            isRoot: 0
+            _node:
+              id: 65
+            _positionFromCenter: -1
+          _segment:
+            id: 1
+          _leaf:
+            id: 102
+        - _location:
+            isRoot: 0
+            _node:
+              id: 65
+            _positionFromCenter: 0
+          _segment:
+            id: 103
+          _leaf:
+            id: 1
+        - _location:
+            isRoot: 0
+            _node:
+              id: 65
+            _positionFromCenter: 1
+          _segment:
+            id: 1
+          _leaf:
+            id: 104
+        size: 0
+        age: 0
+    00000042:
+      type: {class: Node, ns: PlantMiniGame, asm: Assembly-CSharp}
+      data:
+        _parent:
+          id: 45
+        centerIndex: 1
+        paths:
+        - _location:
+            isRoot: 0
+            _node:
+              id: 66
+            _positionFromCenter: -1
+          _segment:
+            id: 1
+          _leaf:
+            id: 105
+        - _location:
+            isRoot: 0
+            _node:
+              id: 66
+            _positionFromCenter: 0
+          _segment:
+            id: 1
+          _leaf:
+            id: 106
+        - _location:
+            isRoot: 0
+            _node:
+              id: 66
+            _positionFromCenter: 1
+          _segment:
+            id: 1
+          _leaf:
+            id: 107
+        size: 0
+        age: 0
+    00000043:
+      type: {class: Node, ns: PlantMiniGame, asm: Assembly-CSharp}
+      data:
+        _parent:
+          id: 47
+        centerIndex: 1
+        paths:
+        - _location:
+            isRoot: 0
+            _node:
+              id: 67
+            _positionFromCenter: -1
+          _segment:
+            id: 1
+          _leaf:
+            id: 108
+        - _location:
+            isRoot: 0
+            _node:
+              id: 67
+            _positionFromCenter: 0
+          _segment:
+            id: 1
+          _leaf:
+            id: 109
+        - _location:
+            isRoot: 0
+            _node:
+              id: 67
+            _positionFromCenter: 1
+          _segment:
+            id: 1
+          _leaf:
+            id: 110
+        size: 0
+        age: 0
+    00000044:
+      type: {class: Node, ns: PlantMiniGame, asm: Assembly-CSharp}
+      data:
+        _parent:
+          id: 49
+        centerIndex: 1
+        paths:
+        - _location:
+            isRoot: 0
+            _node:
+              id: 68
+            _positionFromCenter: -1
+          _segment:
+            id: 1
+          _leaf:
+            id: 111
+        - _location:
+            isRoot: 0
+            _node:
+              id: 68
+            _positionFromCenter: 0
+          _segment:
+            id: 1
+          _leaf:
+            id: 112
+        - _location:
+            isRoot: 0
+            _node:
+              id: 68
+            _positionFromCenter: 1
+          _segment:
+            id: 1
+          _leaf:
+            id: 113
+        size: 0
+        age: 0
+    00000045:
+      type: {class: Node, ns: PlantMiniGame, asm: Assembly-CSharp}
+      data:
+        _parent:
+          id: 50
+        centerIndex: 1
+        paths:
+        - _location:
+            isRoot: 0
+            _node:
+              id: 69
+            _positionFromCenter: -1
+          _segment:
+            id: 114
+          _leaf:
+            id: 1
+        - _location:
+            isRoot: 0
+            _node:
+              id: 69
+            _positionFromCenter: 0
+          _segment:
+            id: 115
+          _leaf:
+            id: 1
+        - _location:
+            isRoot: 0
+            _node:
+              id: 69
+            _positionFromCenter: 1
+          _segment:
+            id: 116
+          _leaf:
+            id: 1
+        size: 0
+        age: 0
+    00000046:
+      type: {class: Node, ns: PlantMiniGame, asm: Assembly-CSharp}
+      data:
+        _parent:
+          id: 51
+        centerIndex: 1
+        paths:
+        - _location:
+            isRoot: 0
+            _node:
+              id: 70
+            _positionFromCenter: -1
+          _segment:
+            id: 117
+          _leaf:
+            id: 1
+        - _location:
+            isRoot: 0
+            _node:
+              id: 70
+            _positionFromCenter: 0
+          _segment:
+            id: 118
+          _leaf:
+            id: 1
+        - _location:
+            isRoot: 0
+            _node:
+              id: 70
+            _positionFromCenter: 1
+          _segment:
+            id: 119
+          _leaf:
+            id: 1
+        size: 0
+        age: 0
+    00000047:
+      type: {class: Node, ns: PlantMiniGame, asm: Assembly-CSharp}
+      data:
+        _parent:
+          id: 53
+        centerIndex: 1
+        paths:
+        - _location:
+            isRoot: 0
+            _node:
+              id: 71
+            _positionFromCenter: -1
+          _segment:
+            id: 1
+          _leaf:
+            id: 120
+        - _location:
+            isRoot: 0
+            _node:
+              id: 71
+            _positionFromCenter: 0
+          _segment:
+            id: 1
+          _leaf:
+            id: 121
+        - _location:
+            isRoot: 0
+            _node:
+              id: 71
+            _positionFromCenter: 1
+          _segment:
+            id: 1
+          _leaf:
+            id: 122
+        size: 0
+        age: 0
+    00000048:
+      type: {class: Leaf, ns: PlantMiniGame, asm: Assembly-CSharp}
+      data:
+        _location:
+          isRoot: 0
+          _node:
+            id: 55
+          _positionFromCenter: -1
+        dirt: 0.3875524
+        condition: 1
+    00000049:
+      type: {class: Leaf, ns: PlantMiniGame, asm: Assembly-CSharp}
+      data:
+        _location:
+          isRoot: 0
+          _node:
+            id: 55
+          _positionFromCenter: 0
+        dirt: 0.11574413
+        condition: 0
+    0000004A:
+      type: {class: Leaf, ns: PlantMiniGame, asm: Assembly-CSharp}
+      data:
+        _location:
+          isRoot: 0
+          _node:
+            id: 55
+          _positionFromCenter: 1
+        dirt: 0.24169126
+        condition: 0
+    0000004B:
+      type: {class: Leaf, ns: PlantMiniGame, asm: Assembly-CSharp}
+      data:
+        _location:
+          isRoot: 0
+          _node:
+            id: 56
+          _positionFromCenter: -1
+        dirt: 0.65269756
+        condition: 0
+    0000004C:
+      type: {class: Segment, ns: PlantMiniGame, asm: Assembly-CSharp}
+      data:
+        location:
+          isRoot: 0
+          _node:
+            id: 56
+          _positionFromCenter: 0
+        depth: 4
+        age: 0
+        lengthRand: 0.18588544
+        node:
+          id: 123
+    0000004D:
+      type: {class: Leaf, ns: PlantMiniGame, asm: Assembly-CSharp}
+      data:
+        _location:
+          isRoot: 0
+          _node:
+            id: 56
+          _positionFromCenter: 1
+        dirt: 0.8741453
+        condition: 0
+    0000004E:
+      type: {class: Segment, ns: PlantMiniGame, asm: Assembly-CSharp}
+      data:
+        location:
+          isRoot: 0
+          _node:
+            id: 57
+          _positionFromCenter: -1
+        depth: 4
+        age: 0
+        lengthRand: 0.38748926
+        node:
+          id: 124
+    0000004F:
+      type: {class: Segment, ns: PlantMiniGame, asm: Assembly-CSharp}
+      data:
+        location:
+          isRoot: 0
+          _node:
+            id: 57
+          _positionFromCenter: 0
+        depth: 4
+        age: 0
+        lengthRand: 0.090915926
+        node:
+          id: 125
+    00000050:
+      type: {class: Segment, ns: PlantMiniGame, asm: Assembly-CSharp}
+      data:
+        location:
+          isRoot: 0
+          _node:
+            id: 57
+          _positionFromCenter: 1
+        depth: 4
+        age: 0
+        lengthRand: 0.3498365
+        node:
+          id: 126
+    00000051:
+      type: {class: Segment, ns: PlantMiniGame, asm: Assembly-CSharp}
+      data:
+        location:
+          isRoot: 0
+          _node:
+            id: 58
+          _positionFromCenter: -1
+        depth: 4
+        age: 0
+        lengthRand: 0.6773582
+        node:
+          id: 127
+    00000052:
+      type: {class: Segment, ns: PlantMiniGame, asm: Assembly-CSharp}
+      data:
+        location:
+          isRoot: 0
+          _node:
+            id: 58
+          _positionFromCenter: 0
+        depth: 4
+        age: 0
+        lengthRand: 0.015413644
+        node:
+          id: 128
+    00000053:
+      type: {class: Segment, ns: PlantMiniGame, asm: Assembly-CSharp}
+      data:
+        location:
+          isRoot: 0
+          _node:
+            id: 58
+          _positionFromCenter: 1
+        depth: 4
+        age: 0
+        lengthRand: 0.4186831
+        node:
+          id: 129
+    00000054:
+      type: {class: Leaf, ns: PlantMiniGame, asm: Assembly-CSharp}
+      data:
+        _location:
+          isRoot: 0
+          _node:
+            id: 59
+          _positionFromCenter: -1
+        dirt: 0.60411215
+        condition: 0
+    00000055:
+      type: {class: Leaf, ns: PlantMiniGame, asm: Assembly-CSharp}
+      data:
+        _location:
+          isRoot: 0
+          _node:
+            id: 59
+          _positionFromCenter: 0
+        dirt: 0.69931674
+        condition: 0
+    00000056:
+      type: {class: Leaf, ns: PlantMiniGame, asm: Assembly-CSharp}
+      data:
+        _location:
+          isRoot: 0
+          _node:
+            id: 59
+          _positionFromCenter: 1
+        dirt: 0.68117267
+        condition: 0
+    00000057:
+      type: {class: Leaf, ns: PlantMiniGame, asm: Assembly-CSharp}
+      data:
+        _location:
+          isRoot: 0
+          _node:
+            id: 60
+          _positionFromCenter: -1
+        dirt: 0.6703615
+        condition: 0
+    00000058:
+      type: {class: Leaf, ns: PlantMiniGame, asm: Assembly-CSharp}
+      data:
+        _location:
+          isRoot: 0
+          _node:
+            id: 60
+          _positionFromCenter: 0
+        dirt: 0.55783486
+        condition: 0
+    00000059:
+      type: {class: Leaf, ns: PlantMiniGame, asm: Assembly-CSharp}
+      data:
+        _location:
+          isRoot: 0
+          _node:
+            id: 60
+          _positionFromCenter: 1
+        dirt: 0.78603286
+        condition: 0
+    0000005A:
+      type: {class: Segment, ns: PlantMiniGame, asm: Assembly-CSharp}
+      data:
+        location:
+          isRoot: 0
+          _node:
+            id: 61
+          _positionFromCenter: -1
+        depth: 4
+        age: 0
+        lengthRand: 0.12344159
+        node:
+          id: 130
+    0000005B:
+      type: {class: Segment, ns: PlantMiniGame, asm: Assembly-CSharp}
+      data:
+        location:
+          isRoot: 0
+          _node:
+            id: 61
+          _positionFromCenter: 0
+        depth: 4
+        age: 0
+        lengthRand: 0.012524487
+        node:
+          id: 131
+    0000005C:
+      type: {class: Segment, ns: PlantMiniGame, asm: Assembly-CSharp}
+      data:
+        location:
+          isRoot: 0
+          _node:
+            id: 61
+          _positionFromCenter: 1
+        depth: 4
+        age: 0
+        lengthRand: 0.70251495
+        node:
+          id: 132
+    0000005D:
+      type: {class: Leaf, ns: PlantMiniGame, asm: Assembly-CSharp}
+      data:
+        _location:
+          isRoot: 0
+          _node:
+            id: 62
+          _positionFromCenter: -1
+        dirt: 0.26863438
+        condition: 0
+    0000005E:
+      type: {class: Leaf, ns: PlantMiniGame, asm: Assembly-CSharp}
+      data:
+        _location:
+          isRoot: 0
+          _node:
+            id: 62
+          _positionFromCenter: 0
+        dirt: 0.29867163
+        condition: 0
+    0000005F:
+      type: {class: Leaf, ns: PlantMiniGame, asm: Assembly-CSharp}
+      data:
+        _location:
+          isRoot: 0
+          _node:
+            id: 62
+          _positionFromCenter: 1
+        dirt: 0.37642974
+        condition: 0
+    00000060:
+      type: {class: Leaf, ns: PlantMiniGame, asm: Assembly-CSharp}
+      data:
+        _location:
+          isRoot: 0
+          _node:
+            id: 63
+          _positionFromCenter: -1
+        dirt: 0.6135289
+        condition: 1
+    00000061:
+      type: {class: Leaf, ns: PlantMiniGame, asm: Assembly-CSharp}
+      data:
+        _location:
+          isRoot: 0
+          _node:
+            id: 63
+          _positionFromCenter: 0
+        dirt: 0.83766675
+        condition: 1
+    00000062:
+      type: {class: Leaf, ns: PlantMiniGame, asm: Assembly-CSharp}
+      data:
+        _location:
+          isRoot: 0
+          _node:
+            id: 63
+          _positionFromCenter: 1
+        dirt: 0.9577042
+        condition: 0
+    00000063:
+      type: {class: Segment, ns: PlantMiniGame, asm: Assembly-CSharp}
+      data:
+        location:
+          isRoot: 0
+          _node:
+            id: 64
+          _positionFromCenter: -1
+        depth: 4
+        age: 0
+        lengthRand: 0.822647
+        node:
+          id: 133
+    00000064:
+      type: {class: Segment, ns: PlantMiniGame, asm: Assembly-CSharp}
+      data:
+        location:
+          isRoot: 0
+          _node:
+            id: 64
+          _positionFromCenter: 0
+        depth: 4
+        age: 0
+        lengthRand: 0.44502538
+        node:
+          id: 134
+    00000065:
+      type: {class: Segment, ns: PlantMiniGame, asm: Assembly-CSharp}
+      data:
+        location:
+          isRoot: 0
+          _node:
+            id: 64
+          _positionFromCenter: 1
+        depth: 4
+        age: 0
+        lengthRand: 0.123570696
+        node:
+          id: 135
+    00000066:
+      type: {class: Leaf, ns: PlantMiniGame, asm: Assembly-CSharp}
+      data:
+        _location:
+          isRoot: 0
+          _node:
+            id: 65
+          _positionFromCenter: -1
+        dirt: 1.0305393
+        condition: 0
+    00000067:
+      type: {class: Segment, ns: PlantMiniGame, asm: Assembly-CSharp}
+      data:
+        location:
+          isRoot: 0
+          _node:
+            id: 65
+          _positionFromCenter: 0
+        depth: 4
+        age: 0
+        lengthRand: 0.56968576
+        node:
+          id: 136
+    00000068:
+      type: {class: Leaf, ns: PlantMiniGame, asm: Assembly-CSharp}
+      data:
+        _location:
+          isRoot: 0
+          _node:
+            id: 65
+          _positionFromCenter: 1
+        dirt: 0.8031205
+        condition: 1
+    00000069:
+      type: {class: Leaf, ns: PlantMiniGame, asm: Assembly-CSharp}
+      data:
+        _location:
+          isRoot: 0
+          _node:
+            id: 66
+          _positionFromCenter: -1
+        dirt: 0.26782504
+        condition: 0
+    0000006A:
+      type: {class: Leaf, ns: PlantMiniGame, asm: Assembly-CSharp}
+      data:
+        _location:
+          isRoot: 0
+          _node:
+            id: 66
+          _positionFromCenter: 0
+        dirt: 0.3677054
+        condition: 0
+    0000006B:
+      type: {class: Leaf, ns: PlantMiniGame, asm: Assembly-CSharp}
+      data:
+        _location:
+          isRoot: 0
+          _node:
+            id: 66
+          _positionFromCenter: 1
+        dirt: 0.42580068
+        condition: 1
+    0000006C:
+      type: {class: Leaf, ns: PlantMiniGame, asm: Assembly-CSharp}
+      data:
+        _location:
+          isRoot: 0
+          _node:
+            id: 67
+          _positionFromCenter: -1
+        dirt: 0.13626681
+        condition: 0
+    0000006D:
+      type: {class: Leaf, ns: PlantMiniGame, asm: Assembly-CSharp}
+      data:
+        _location:
+          isRoot: 0
+          _node:
+            id: 67
+          _positionFromCenter: 0
+        dirt: 0.36405295
+        condition: 0
+    0000006E:
+      type: {class: Leaf, ns: PlantMiniGame, asm: Assembly-CSharp}
+      data:
+        _location:
+          isRoot: 0
+          _node:
+            id: 67
+          _positionFromCenter: 1
+        dirt: 0.42371792
+        condition: 0
+    0000006F:
+      type: {class: Leaf, ns: PlantMiniGame, asm: Assembly-CSharp}
+      data:
+        _location:
+          isRoot: 0
+          _node:
+            id: 68
+          _positionFromCenter: -1
+        dirt: 0.8769833
+        condition: 0
+    00000070:
+      type: {class: Leaf, ns: PlantMiniGame, asm: Assembly-CSharp}
+      data:
+        _location:
+          isRoot: 0
+          _node:
+            id: 68
+          _positionFromCenter: 0
+        dirt: 0.97051847
+        condition: 0
+    00000071:
+      type: {class: Leaf, ns: PlantMiniGame, asm: Assembly-CSharp}
+      data:
+        _location:
+          isRoot: 0
+          _node:
+            id: 68
+          _positionFromCenter: 1
+        dirt: 1.0068208
+        condition: 0
+    00000072:
+      type: {class: Segment, ns: PlantMiniGame, asm: Assembly-CSharp}
+      data:
+        location:
+          isRoot: 0
+          _node:
+            id: 69
+          _positionFromCenter: -1
+        depth: 4
+        age: 0
+        lengthRand: 0.41447383
+        node:
+          id: 137
+    00000073:
+      type: {class: Segment, ns: PlantMiniGame, asm: Assembly-CSharp}
+      data:
+        location:
+          isRoot: 0
+          _node:
+            id: 69
+          _positionFromCenter: 0
+        depth: 4
+        age: 0
+        lengthRand: 0.416133
+        node:
+          id: 138
+    00000074:
+      type: {class: Segment, ns: PlantMiniGame, asm: Assembly-CSharp}
+      data:
+        location:
+          isRoot: 0
+          _node:
+            id: 69
+          _positionFromCenter: 1
+        depth: 4
+        age: 0
+        lengthRand: 0.40227062
+        node:
+          id: 139
+    00000075:
+      type: {class: Segment, ns: PlantMiniGame, asm: Assembly-CSharp}
+      data:
+        location:
+          isRoot: 0
+          _node:
+            id: 70
+          _positionFromCenter: -1
+        depth: 4
+        age: 0
+        lengthRand: 0.8863709
+        node:
+          id: 140
+    00000076:
+      type: {class: Segment, ns: PlantMiniGame, asm: Assembly-CSharp}
+      data:
+        location:
+          isRoot: 0
+          _node:
+            id: 70
+          _positionFromCenter: 0
+        depth: 4
+        age: 0
+        lengthRand: 0.5751868
+        node:
+          id: 141
+    00000077:
+      type: {class: Segment, ns: PlantMiniGame, asm: Assembly-CSharp}
+      data:
+        location:
+          isRoot: 0
+          _node:
+            id: 70
+          _positionFromCenter: 1
+        depth: 4
+        age: 0
+        lengthRand: 0.55695707
+        node:
+          id: 142
+    00000078:
+      type: {class: Leaf, ns: PlantMiniGame, asm: Assembly-CSharp}
+      data:
+        _location:
+          isRoot: 0
+          _node:
+            id: 71
+          _positionFromCenter: -1
+        dirt: 0.3705414
+        condition: 0
+    00000079:
+      type: {class: Leaf, ns: PlantMiniGame, asm: Assembly-CSharp}
+      data:
+        _location:
+          isRoot: 0
+          _node:
+            id: 71
+          _positionFromCenter: 0
+        dirt: 0.14376874
+        condition: 0
+    0000007A:
+      type: {class: Leaf, ns: PlantMiniGame, asm: Assembly-CSharp}
+      data:
+        _location:
+          isRoot: 0
+          _node:
+            id: 71
+          _positionFromCenter: 1
+        dirt: 0.11655824
+        condition: 0
+    0000007B:
+      type: {class: Node, ns: PlantMiniGame, asm: Assembly-CSharp}
+      data:
+        _parent:
+          id: 76
+        centerIndex: 1
+        paths:
+        - _location:
+            isRoot: 0
+            _node:
+              id: 123
+            _positionFromCenter: -1
+          _segment:
+            id: 1
+          _leaf:
+            id: 143
+        - _location:
+            isRoot: 0
+            _node:
+              id: 123
+            _positionFromCenter: 0
+          _segment:
+            id: 1
+          _leaf:
+            id: 144
+        - _location:
+            isRoot: 0
+            _node:
+              id: 123
+            _positionFromCenter: 1
+          _segment:
+            id: 1
+          _leaf:
+            id: 145
+        size: 0
+        age: 0
+    0000007C:
+      type: {class: Node, ns: PlantMiniGame, asm: Assembly-CSharp}
+      data:
+        _parent:
+          id: 78
+        centerIndex: 1
+        paths:
+        - _location:
+            isRoot: 0
+            _node:
+              id: 124
+            _positionFromCenter: -1
+          _segment:
+            id: 1
+          _leaf:
+            id: 146
+        - _location:
+            isRoot: 0
+            _node:
+              id: 124
+            _positionFromCenter: 0
+          _segment:
+            id: 1
+          _leaf:
+            id: 147
+        - _location:
+            isRoot: 0
+            _node:
+              id: 124
+            _positionFromCenter: 1
+          _segment:
+            id: 1
+          _leaf:
+            id: 148
+        size: 0
+        age: 0
+    0000007D:
+      type: {class: Node, ns: PlantMiniGame, asm: Assembly-CSharp}
+      data:
+        _parent:
+          id: 79
+        centerIndex: 1
+        paths:
+        - _location:
+            isRoot: 0
+            _node:
+              id: 125
+            _positionFromCenter: -1
+          _segment:
+            id: 149
+          _leaf:
+            id: 1
+        - _location:
+            isRoot: 0
+            _node:
+              id: 125
+            _positionFromCenter: 0
+          _segment:
+            id: 150
+          _leaf:
+            id: 1
+        - _location:
+            isRoot: 0
+            _node:
+              id: 125
+            _positionFromCenter: 1
+          _segment:
+            id: 151
+          _leaf:
+            id: 1
+        size: 0
+        age: 0
+    0000007E:
+      type: {class: Node, ns: PlantMiniGame, asm: Assembly-CSharp}
+      data:
+        _parent:
+          id: 80
+        centerIndex: 1
+        paths:
+        - _location:
+            isRoot: 0
+            _node:
+              id: 126
+            _positionFromCenter: -1
+          _segment:
+            id: 1
+          _leaf:
+            id: 152
+        - _location:
+            isRoot: 0
+            _node:
+              id: 126
+            _positionFromCenter: 0
+          _segment:
+            id: 1
+          _leaf:
+            id: 153
+        - _location:
+            isRoot: 0
+            _node:
+              id: 126
+            _positionFromCenter: 1
+          _segment:
+            id: 1
+          _leaf:
+            id: 154
+        size: 0
+        age: 0
+    0000007F:
+      type: {class: Node, ns: PlantMiniGame, asm: Assembly-CSharp}
+      data:
+        _parent:
+          id: 81
+        centerIndex: 1
+        paths:
+        - _location:
+            isRoot: 0
+            _node:
+              id: 127
+            _positionFromCenter: -1
+          _segment:
+            id: 1
+          _leaf:
+            id: 155
+        - _location:
+            isRoot: 0
+            _node:
+              id: 127
+            _positionFromCenter: 0
+          _segment:
+            id: 1
+          _leaf:
+            id: 156
+        - _location:
+            isRoot: 0
+            _node:
+              id: 127
+            _positionFromCenter: 1
+          _segment:
+            id: 1
+          _leaf:
+            id: 157
+        size: 0
+        age: 0
+    00000080:
+      type: {class: Node, ns: PlantMiniGame, asm: Assembly-CSharp}
+      data:
+        _parent:
+          id: 82
+        centerIndex: 1
+        paths:
+        - _location:
+            isRoot: 0
+            _node:
+              id: 128
+            _positionFromCenter: -1
+          _segment:
+            id: 1
+          _leaf:
+            id: 158
+        - _location:
+            isRoot: 0
+            _node:
+              id: 128
+            _positionFromCenter: 0
+          _segment:
+            id: 159
+          _leaf:
+            id: 1
+        - _location:
+            isRoot: 0
+            _node:
+              id: 128
+            _positionFromCenter: 1
+          _segment:
+            id: 1
+          _leaf:
+            id: 160
+        size: 0
+        age: 0
+    00000081:
+      type: {class: Node, ns: PlantMiniGame, asm: Assembly-CSharp}
+      data:
+        _parent:
+          id: 83
+        centerIndex: 1
+        paths:
+        - _location:
+            isRoot: 0
+            _node:
+              id: 129
+            _positionFromCenter: -1
+          _segment:
+            id: 1
+          _leaf:
+            id: 161
+        - _location:
+            isRoot: 0
+            _node:
+              id: 129
+            _positionFromCenter: 0
+          _segment:
+            id: 1
+          _leaf:
+            id: 162
+        - _location:
+            isRoot: 0
+            _node:
+              id: 129
+            _positionFromCenter: 1
+          _segment:
+            id: 1
+          _leaf:
+            id: 163
+        size: 0
+        age: 0
+    00000082:
+      type: {class: Node, ns: PlantMiniGame, asm: Assembly-CSharp}
+      data:
+        _parent:
+          id: 90
+        centerIndex: 1
+        paths:
+        - _location:
+            isRoot: 0
+            _node:
+              id: 130
+            _positionFromCenter: -1
+          _segment:
+            id: 1
+          _leaf:
+            id: 164
+        - _location:
+            isRoot: 0
+            _node:
+              id: 130
+            _positionFromCenter: 0
+          _segment:
+            id: 165
+          _leaf:
+            id: 1
+        - _location:
+            isRoot: 0
+            _node:
+              id: 130
+            _positionFromCenter: 1
+          _segment:
+            id: 1
+          _leaf:
+            id: 166
+        size: 0
+        age: 0
+    00000083:
+      type: {class: Node, ns: PlantMiniGame, asm: Assembly-CSharp}
+      data:
+        _parent:
+          id: 91
+        centerIndex: 1
+        paths:
+        - _location:
+            isRoot: 0
+            _node:
+              id: 131
+            _positionFromCenter: -1
+          _segment:
+            id: 1
+          _leaf:
+            id: 167
+        - _location:
+            isRoot: 0
+            _node:
+              id: 131
+            _positionFromCenter: 0
+          _segment:
+            id: 168
+          _leaf:
+            id: 1
+        - _location:
+            isRoot: 0
+            _node:
+              id: 131
+            _positionFromCenter: 1
+          _segment:
+            id: 1
+          _leaf:
+            id: 169
+        size: 0
+        age: 0
+    00000084:
+      type: {class: Node, ns: PlantMiniGame, asm: Assembly-CSharp}
+      data:
+        _parent:
+          id: 92
+        centerIndex: 1
+        paths:
+        - _location:
+            isRoot: 0
+            _node:
+              id: 132
+            _positionFromCenter: -1
+          _segment:
+            id: 1
+          _leaf:
+            id: 170
+        - _location:
+            isRoot: 0
+            _node:
+              id: 132
+            _positionFromCenter: 0
+          _segment:
+            id: 1
+          _leaf:
+            id: 171
+        - _location:
+            isRoot: 0
+            _node:
+              id: 132
+            _positionFromCenter: 1
+          _segment:
+            id: 1
+          _leaf:
+            id: 172
+        size: 0
+        age: 0
+    00000085:
+      type: {class: Node, ns: PlantMiniGame, asm: Assembly-CSharp}
+      data:
+        _parent:
+          id: 99
+        centerIndex: 1
+        paths:
+        - _location:
+            isRoot: 0
+            _node:
+              id: 133
+            _positionFromCenter: -1
+          _segment:
+            id: 1
+          _leaf:
+            id: 173
+        - _location:
+            isRoot: 0
+            _node:
+              id: 133
+            _positionFromCenter: 0
+          _segment:
+            id: 174
+          _leaf:
+            id: 1
+        - _location:
+            isRoot: 0
+            _node:
+              id: 133
+            _positionFromCenter: 1
+          _segment:
+            id: 1
+          _leaf:
+            id: 175
+        size: 0
+        age: 0
+    00000086:
+      type: {class: Node, ns: PlantMiniGame, asm: Assembly-CSharp}
+      data:
+        _parent:
+          id: 100
+        centerIndex: 1
+        paths:
+        - _location:
+            isRoot: 0
+            _node:
+              id: 134
+            _positionFromCenter: -1
+          _segment:
+            id: 1
+          _leaf:
+            id: 176
+        - _location:
+            isRoot: 0
+            _node:
+              id: 134
+            _positionFromCenter: 0
+          _segment:
+            id: 1
+          _leaf:
+            id: 177
+        - _location:
+            isRoot: 0
+            _node:
+              id: 134
+            _positionFromCenter: 1
+          _segment:
+            id: 1
+          _leaf:
+            id: 178
+        size: 0
+        age: 0
+    00000087:
+      type: {class: Node, ns: PlantMiniGame, asm: Assembly-CSharp}
+      data:
+        _parent:
+          id: 101
+        centerIndex: 1
+        paths:
+        - _location:
+            isRoot: 0
+            _node:
+              id: 135
+            _positionFromCenter: -1
+          _segment:
+            id: 179
+          _leaf:
+            id: 1
+        - _location:
+            isRoot: 0
+            _node:
+              id: 135
+            _positionFromCenter: 0
+          _segment:
+            id: 180
+          _leaf:
+            id: 1
+        - _location:
+            isRoot: 0
+            _node:
+              id: 135
+            _positionFromCenter: 1
+          _segment:
+            id: 181
+          _leaf:
+            id: 1
+        size: 0
+        age: 0
+    00000088:
+      type: {class: Node, ns: PlantMiniGame, asm: Assembly-CSharp}
+      data:
+        _parent:
+          id: 103
+        centerIndex: 1
+        paths:
+        - _location:
+            isRoot: 0
+            _node:
+              id: 136
+            _positionFromCenter: -1
+          _segment:
+            id: 1
+          _leaf:
+            id: 182
+        - _location:
+            isRoot: 0
+            _node:
+              id: 136
+            _positionFromCenter: 0
+          _segment:
+            id: 1
+          _leaf:
+            id: 183
+        - _location:
+            isRoot: 0
+            _node:
+              id: 136
+            _positionFromCenter: 1
+          _segment:
+            id: 1
+          _leaf:
+            id: 184
+        size: 0
+        age: 0
+    00000089:
+      type: {class: Node, ns: PlantMiniGame, asm: Assembly-CSharp}
+      data:
+        _parent:
+          id: 114
+        centerIndex: 1
+        paths:
+        - _location:
+            isRoot: 0
+            _node:
+              id: 137
+            _positionFromCenter: -1
+          _segment:
+            id: 185
+          _leaf:
+            id: 1
+        - _location:
+            isRoot: 0
+            _node:
+              id: 137
+            _positionFromCenter: 0
+          _segment:
+            id: 186
+          _leaf:
+            id: 1
+        - _location:
+            isRoot: 0
+            _node:
+              id: 137
+            _positionFromCenter: 1
+          _segment:
+            id: 187
+          _leaf:
+            id: 1
+        size: 0
+        age: 0
+    0000008A:
+      type: {class: Node, ns: PlantMiniGame, asm: Assembly-CSharp}
+      data:
+        _parent:
+          id: 115
+        centerIndex: 1
+        paths:
+        - _location:
+            isRoot: 0
+            _node:
+              id: 138
+            _positionFromCenter: -1
+          _segment:
+            id: 188
+          _leaf:
+            id: 1
+        - _location:
+            isRoot: 0
+            _node:
+              id: 138
+            _positionFromCenter: 0
+          _segment:
+            id: 189
+          _leaf:
+            id: 1
+        - _location:
+            isRoot: 0
+            _node:
+              id: 138
+            _positionFromCenter: 1
+          _segment:
+            id: 190
+          _leaf:
+            id: 1
+        size: 0
+        age: 0
+    0000008B:
+      type: {class: Node, ns: PlantMiniGame, asm: Assembly-CSharp}
+      data:
+        _parent:
+          id: 116
+        centerIndex: 1
+        paths:
+        - _location:
+            isRoot: 0
+            _node:
+              id: 139
+            _positionFromCenter: -1
+          _segment:
+            id: 191
+          _leaf:
+            id: 1
+        - _location:
+            isRoot: 0
+            _node:
+              id: 139
+            _positionFromCenter: 0
+          _segment:
+            id: 192
+          _leaf:
+            id: 1
+        - _location:
+            isRoot: 0
+            _node:
+              id: 139
+            _positionFromCenter: 1
+          _segment:
+            id: 193
+          _leaf:
+            id: 1
+        size: 0
+        age: 0
+    0000008C:
+      type: {class: Node, ns: PlantMiniGame, asm: Assembly-CSharp}
+      data:
+        _parent:
+          id: 117
+        centerIndex: 1
+        paths:
+        - _location:
+            isRoot: 0
+            _node:
+              id: 140
+            _positionFromCenter: -1
+          _segment:
+            id: 1
+          _leaf:
+            id: 194
+        - _location:
+            isRoot: 0
+            _node:
+              id: 140
+            _positionFromCenter: 0
+          _segment:
+            id: 1
+          _leaf:
+            id: 195
+        - _location:
+            isRoot: 0
+            _node:
+              id: 140
+            _positionFromCenter: 1
+          _segment:
+            id: 1
+          _leaf:
+            id: 196
+        size: 0
+        age: 0
+    0000008D:
+      type: {class: Node, ns: PlantMiniGame, asm: Assembly-CSharp}
+      data:
+        _parent:
+          id: 118
+        centerIndex: 1
+        paths:
+        - _location:
+            isRoot: 0
+            _node:
+              id: 141
+            _positionFromCenter: -1
+          _segment:
+            id: 1
+          _leaf:
+            id: 197
+        - _location:
+            isRoot: 0
+            _node:
+              id: 141
+            _positionFromCenter: 0
+          _segment:
+            id: 198
+          _leaf:
+            id: 1
+        - _location:
+            isRoot: 0
+            _node:
+              id: 141
+            _positionFromCenter: 1
+          _segment:
+            id: 1
+          _leaf:
+            id: 199
+        size: 0
+        age: 0
+    0000008E:
+      type: {class: Node, ns: PlantMiniGame, asm: Assembly-CSharp}
+      data:
+        _parent:
+          id: 119
+        centerIndex: 1
+        paths:
+        - _location:
+            isRoot: 0
+            _node:
+              id: 142
+            _positionFromCenter: -1
+          _segment:
+            id: 1
+          _leaf:
+            id: 200
+        - _location:
+            isRoot: 0
+            _node:
+              id: 142
+            _positionFromCenter: 0
+          _segment:
+            id: 201
+          _leaf:
+            id: 1
+        - _location:
+            isRoot: 0
+            _node:
+              id: 142
+            _positionFromCenter: 1
+          _segment:
+            id: 1
+          _leaf:
+            id: 202
+        size: 0
+        age: 0
+    0000008F:
+      type: {class: Leaf, ns: PlantMiniGame, asm: Assembly-CSharp}
+      data:
+        _location:
+          isRoot: 0
+          _node:
+            id: 123
+          _positionFromCenter: -1
+        dirt: 0.26827988
+        condition: 1
+    00000090:
+      type: {class: Leaf, ns: PlantMiniGame, asm: Assembly-CSharp}
+      data:
+        _location:
+          isRoot: 0
+          _node:
+            id: 123
+          _positionFromCenter: 0
+        dirt: 0.4144066
+        condition: 0
+    00000091:
+      type: {class: Leaf, ns: PlantMiniGame, asm: Assembly-CSharp}
+      data:
+        _location:
+          isRoot: 0
+          _node:
+            id: 123
+          _positionFromCenter: 1
+        dirt: 0.19422618
+        condition: 0
+    00000092:
+      type: {class: Leaf, ns: PlantMiniGame, asm: Assembly-CSharp}
+      data:
+        _location:
+          isRoot: 0
+          _node:
+            id: 124
+          _positionFromCenter: -1
+        dirt: 0.285918
+        condition: 1
+    00000093:
+      type: {class: Leaf, ns: PlantMiniGame, asm: Assembly-CSharp}
+      data:
+        _location:
+          isRoot: 0
+          _node:
+            id: 124
+          _positionFromCenter: 0
+        dirt: 0.3733132
+        condition: 0
+    00000094:
+      type: {class: Leaf, ns: PlantMiniGame, asm: Assembly-CSharp}
+      data:
+        _location:
+          isRoot: 0
+          _node:
+            id: 124
+          _positionFromCenter: 1
+        dirt: 0.25101808
+        condition: 0
+    00000095:
+      type: {class: Segment, ns: PlantMiniGame, asm: Assembly-CSharp}
+      data:
+        location:
+          isRoot: 0
+          _node:
+            id: 125
+          _positionFromCenter: -1
+        depth: 5
+        age: 0
+        lengthRand: 0.0401001
+        node:
+          id: 203
+    00000096:
+      type: {class: Segment, ns: PlantMiniGame, asm: Assembly-CSharp}
+      data:
+        location:
+          isRoot: 0
+          _node:
+            id: 125
+          _positionFromCenter: 0
+        depth: 5
+        age: 0
+        lengthRand: 0.45223397
+        node:
+          id: 204
+    00000097:
+      type: {class: Segment, ns: PlantMiniGame, asm: Assembly-CSharp}
+      data:
+        location:
+          isRoot: 0
+          _node:
+            id: 125
+          _positionFromCenter: 1
+        depth: 5
+        age: 0
+        lengthRand: 0.043420795
+        node:
+          id: 205
+    00000098:
+      type: {class: Leaf, ns: PlantMiniGame, asm: Assembly-CSharp}
+      data:
+        _location:
+          isRoot: 0
+          _node:
+            id: 126
+          _positionFromCenter: -1
+        dirt: 0.43874773
+        condition: 0
+    00000099:
+      type: {class: Leaf, ns: PlantMiniGame, asm: Assembly-CSharp}
+      data:
+        _location:
+          isRoot: 0
+          _node:
+            id: 126
+          _positionFromCenter: 0
+        dirt: 0.29364774
+        condition: 0
+    0000009A:
+      type: {class: Leaf, ns: PlantMiniGame, asm: Assembly-CSharp}
+      data:
+        _location:
+          isRoot: 0
+          _node:
+            id: 126
+          _positionFromCenter: 1
+        dirt: 0.27919096
+        condition: 0
+    0000009B:
+      type: {class: Leaf, ns: PlantMiniGame, asm: Assembly-CSharp}
+      data:
+        _location:
+          isRoot: 0
+          _node:
+            id: 127
+          _positionFromCenter: -1
+        dirt: 0.2910538
+        condition: 0
+    0000009C:
+      type: {class: Leaf, ns: PlantMiniGame, asm: Assembly-CSharp}
+      data:
+        _location:
+          isRoot: 0
+          _node:
+            id: 127
+          _positionFromCenter: 0
+        dirt: 0.40916508
+        condition: 1
+    0000009D:
+      type: {class: Leaf, ns: PlantMiniGame, asm: Assembly-CSharp}
+      data:
+        _location:
+          isRoot: 0
+          _node:
+            id: 127
+          _positionFromCenter: 1
+        dirt: 0.44056347
+        condition: 0
+    0000009E:
+      type: {class: Leaf, ns: PlantMiniGame, asm: Assembly-CSharp}
+      data:
+        _location:
+          isRoot: 0
+          _node:
+            id: 128
+          _positionFromCenter: -1
+        dirt: 0.56667125
+        condition: 0
+    0000009F:
+      type: {class: Segment, ns: PlantMiniGame, asm: Assembly-CSharp}
+      data:
+        location:
+          isRoot: 0
+          _node:
+            id: 128
+          _positionFromCenter: 0
+        depth: 5
+        age: 0
+        lengthRand: 0.37827057
+        node:
+          id: 206
+    000000A0:
+      type: {class: Leaf, ns: PlantMiniGame, asm: Assembly-CSharp}
+      data:
+        _location:
+          isRoot: 0
+          _node:
+            id: 128
+          _positionFromCenter: 1
+        dirt: 0.33869532
+        condition: 0
+    000000A1:
+      type: {class: Leaf, ns: PlantMiniGame, asm: Assembly-CSharp}
+      data:
+        _location:
+          isRoot: 0
+          _node:
+            id: 129
+          _positionFromCenter: -1
+        dirt: 0.23136175
+        condition: 0
+    000000A2:
+      type: {class: Leaf, ns: PlantMiniGame, asm: Assembly-CSharp}
+      data:
+        _location:
+          isRoot: 0
+          _node:
+            id: 129
+          _positionFromCenter: 0
+        dirt: 0.17229633
+        condition: 0
+    000000A3:
+      type: {class: Leaf, ns: PlantMiniGame, asm: Assembly-CSharp}
+      data:
+        _location:
+          isRoot: 0
+          _node:
+            id: 129
+          _positionFromCenter: 1
+        dirt: 0.17535235
+        condition: 0
+    000000A4:
+      type: {class: Leaf, ns: PlantMiniGame, asm: Assembly-CSharp}
+      data:
+        _location:
+          isRoot: 0
+          _node:
+            id: 130
+          _positionFromCenter: -1
+        dirt: 0.305389
+        condition: 0
+    000000A5:
+      type: {class: Segment, ns: PlantMiniGame, asm: Assembly-CSharp}
+      data:
+        location:
+          isRoot: 0
+          _node:
+            id: 130
+          _positionFromCenter: 0
+        depth: 5
+        age: 0
+        lengthRand: 0.4129184
+        node:
+          id: 207
+    000000A6:
+      type: {class: Leaf, ns: PlantMiniGame, asm: Assembly-CSharp}
+      data:
+        _location:
+          isRoot: 0
+          _node:
+            id: 130
+          _positionFromCenter: 1
+        dirt: 0.5487936
+        condition: 1
+    000000A7:
+      type: {class: Leaf, ns: PlantMiniGame, asm: Assembly-CSharp}
+      data:
+        _location:
+          isRoot: 0
+          _node:
+            id: 131
+          _positionFromCenter: -1
+        dirt: 0.6125674
+        condition: 1
+    000000A8:
+      type: {class: Segment, ns: PlantMiniGame, asm: Assembly-CSharp}
+      data:
+        location:
+          isRoot: 0
+          _node:
+            id: 131
+          _positionFromCenter: 0
+        depth: 5
+        age: 0
+        lengthRand: 0.7799399
+        node:
+          id: 208
+    000000A9:
+      type: {class: Leaf, ns: PlantMiniGame, asm: Assembly-CSharp}
+      data:
+        _location:
+          isRoot: 0
+          _node:
+            id: 131
+          _positionFromCenter: 1
+        dirt: 0.43701226
+        condition: 0
+    000000AA:
+      type: {class: Leaf, ns: PlantMiniGame, asm: Assembly-CSharp}
+      data:
+        _location:
+          isRoot: 0
+          _node:
+            id: 132
+          _positionFromCenter: -1
+        dirt: 0.29145664
+        condition: 0
+    000000AB:
+      type: {class: Leaf, ns: PlantMiniGame, asm: Assembly-CSharp}
+      data:
+        _location:
+          isRoot: 0
+          _node:
+            id: 132
+          _positionFromCenter: 0
+        dirt: 0.28169134
+        condition: 0
+    000000AC:
+      type: {class: Leaf, ns: PlantMiniGame, asm: Assembly-CSharp}
+      data:
+        _location:
+          isRoot: 0
+          _node:
+            id: 132
+          _positionFromCenter: 1
+        dirt: 0.3104647
+        condition: 0
+    000000AD:
+      type: {class: Leaf, ns: PlantMiniGame, asm: Assembly-CSharp}
+      data:
+        _location:
+          isRoot: 0
+          _node:
+            id: 133
+          _positionFromCenter: -1
+        dirt: 0.89898616
+        condition: 0
+    000000AE:
+      type: {class: Segment, ns: PlantMiniGame, asm: Assembly-CSharp}
+      data:
+        location:
+          isRoot: 0
+          _node:
+            id: 133
+          _positionFromCenter: 0
+        depth: 5
+        age: 0
+        lengthRand: 0.6346857
+        node:
+          id: 209
+    000000AF:
+      type: {class: Leaf, ns: PlantMiniGame, asm: Assembly-CSharp}
+      data:
+        _location:
+          isRoot: 0
+          _node:
+            id: 133
+          _positionFromCenter: 1
+        dirt: 0.6064038
+        condition: 0
+    000000B0:
+      type: {class: Leaf, ns: PlantMiniGame, asm: Assembly-CSharp}
+      data:
+        _location:
+          isRoot: 0
+          _node:
+            id: 134
+          _positionFromCenter: -1
+        dirt: 0.7998663
+        condition: 1
+    000000B1:
+      type: {class: Leaf, ns: PlantMiniGame, asm: Assembly-CSharp}
+      data:
+        _location:
+          isRoot: 0
+          _node:
+            id: 134
+          _positionFromCenter: 0
+        dirt: 0.940701
+        condition: 0
+    000000B2:
+      type: {class: Leaf, ns: PlantMiniGame, asm: Assembly-CSharp}
+      data:
+        _location:
+          isRoot: 0
+          _node:
+            id: 134
+          _positionFromCenter: 1
+        dirt: 0.7965898
+        condition: 0
+    000000B3:
+      type: {class: Segment, ns: PlantMiniGame, asm: Assembly-CSharp}
+      data:
+        location:
+          isRoot: 0
+          _node:
+            id: 135
+          _positionFromCenter: -1
+        depth: 5
+        age: 0
+        lengthRand: 0.6978541
+        node:
+          id: 210
+    000000B4:
+      type: {class: Segment, ns: PlantMiniGame, asm: Assembly-CSharp}
+      data:
+        location:
+          isRoot: 0
+          _node:
+            id: 135
+          _positionFromCenter: 0
+        depth: 5
+        age: 0
+        lengthRand: 0.6792881
+        node:
+          id: 211
+    000000B5:
+      type: {class: Segment, ns: PlantMiniGame, asm: Assembly-CSharp}
+      data:
+        location:
+          isRoot: 0
+          _node:
+            id: 135
+          _positionFromCenter: 1
+        depth: 5
+        age: 0
+        lengthRand: 0.65552884
+        node:
+          id: 212
+    000000B6:
+      type: {class: Leaf, ns: PlantMiniGame, asm: Assembly-CSharp}
+      data:
+        _location:
+          isRoot: 0
+          _node:
+            id: 136
+          _positionFromCenter: -1
+        dirt: 0.08952646
+        condition: 0
+    000000B7:
+      type: {class: Leaf, ns: PlantMiniGame, asm: Assembly-CSharp}
+      data:
+        _location:
+          isRoot: 0
+          _node:
+            id: 136
+          _positionFromCenter: 0
+        dirt: 0.115512714
+        condition: 0
+    000000B8:
+      type: {class: Leaf, ns: PlantMiniGame, asm: Assembly-CSharp}
+      data:
+        _location:
+          isRoot: 0
+          _node:
+            id: 136
+          _positionFromCenter: 1
+        dirt: 0.332111
+        condition: 1
+    000000B9:
+      type: {class: Segment, ns: PlantMiniGame, asm: Assembly-CSharp}
+      data:
+        location:
+          isRoot: 0
+          _node:
+            id: 137
+          _positionFromCenter: -1
+        depth: 5
+        age: 0
+        lengthRand: 0.30992058
+        node:
+          id: 213
+    000000BA:
+      type: {class: Segment, ns: PlantMiniGame, asm: Assembly-CSharp}
+      data:
+        location:
+          isRoot: 0
+          _node:
+            id: 137
+          _positionFromCenter: 0
+        depth: 5
+        age: 0
+        lengthRand: 0.2209312
+        node:
+          id: 214
+    000000BB:
+      type: {class: Segment, ns: PlantMiniGame, asm: Assembly-CSharp}
+      data:
+        location:
+          isRoot: 0
+          _node:
+            id: 137
+          _positionFromCenter: 1
+        depth: 5
+        age: 0
+        lengthRand: 0.68950576
+        node:
+          id: 215
+    000000BC:
+      type: {class: Segment, ns: PlantMiniGame, asm: Assembly-CSharp}
+      data:
+        location:
+          isRoot: 0
+          _node:
+            id: 138
+          _positionFromCenter: -1
+        depth: 5
+        age: 0
+        lengthRand: 0.17813458
+        node:
+          id: 216
+    000000BD:
+      type: {class: Segment, ns: PlantMiniGame, asm: Assembly-CSharp}
+      data:
+        location:
+          isRoot: 0
+          _node:
+            id: 138
+          _positionFromCenter: 0
+        depth: 5
+        age: 0
+        lengthRand: 0.96238387
+        node:
+          id: 217
+    000000BE:
+      type: {class: Segment, ns: PlantMiniGame, asm: Assembly-CSharp}
+      data:
+        location:
+          isRoot: 0
+          _node:
+            id: 138
+          _positionFromCenter: 1
+        depth: 5
+        age: 0
+        lengthRand: 0.7938137
+        node:
+          id: 218
+    000000BF:
+      type: {class: Segment, ns: PlantMiniGame, asm: Assembly-CSharp}
+      data:
+        location:
+          isRoot: 0
+          _node:
+            id: 139
+          _positionFromCenter: -1
+        depth: 5
+        age: 0
+        lengthRand: 0.84283304
+        node:
+          id: 219
+    000000C0:
+      type: {class: Segment, ns: PlantMiniGame, asm: Assembly-CSharp}
+      data:
+        location:
+          isRoot: 0
+          _node:
+            id: 139
+          _positionFromCenter: 0
+        depth: 5
+        age: 0
+        lengthRand: 0.9723158
+        node:
+          id: 220
+    000000C1:
+      type: {class: Segment, ns: PlantMiniGame, asm: Assembly-CSharp}
+      data:
+        location:
+          isRoot: 0
+          _node:
+            id: 139
+          _positionFromCenter: 1
+        depth: 5
+        age: 0
+        lengthRand: 0.3808605
+        node:
+          id: 221
+    000000C2:
+      type: {class: Leaf, ns: PlantMiniGame, asm: Assembly-CSharp}
+      data:
+        _location:
+          isRoot: 0
+          _node:
+            id: 140
+          _positionFromCenter: -1
+        dirt: 0.42662495
+        condition: 0
+    000000C3:
+      type: {class: Leaf, ns: PlantMiniGame, asm: Assembly-CSharp}
+      data:
+        _location:
+          isRoot: 0
+          _node:
+            id: 140
+          _positionFromCenter: 0
+        dirt: 0.2019645
+        condition: 0
+    000000C4:
+      type: {class: Leaf, ns: PlantMiniGame, asm: Assembly-CSharp}
+      data:
+        _location:
+          isRoot: 0
+          _node:
+            id: 140
+          _positionFromCenter: 1
+        dirt: 0.33030444
+        condition: 0
+    000000C5:
+      type: {class: Leaf, ns: PlantMiniGame, asm: Assembly-CSharp}
+      data:
+        _location:
+          isRoot: 0
+          _node:
+            id: 141
+          _positionFromCenter: -1
+        dirt: 0.6980594
+        condition: 1
+    000000C6:
+      type: {class: Segment, ns: PlantMiniGame, asm: Assembly-CSharp}
+      data:
+        location:
+          isRoot: 0
+          _node:
+            id: 141
+          _positionFromCenter: 0
+        depth: 5
+        age: 0
+        lengthRand: 0.5537606
+        node:
+          id: 222
+    000000C7:
+      type: {class: Leaf, ns: PlantMiniGame, asm: Assembly-CSharp}
+      data:
+        _location:
+          isRoot: 0
+          _node:
+            id: 141
+          _positionFromCenter: 1
+        dirt: 0.29419515
+        condition: 0
+    000000C8:
+      type: {class: Leaf, ns: PlantMiniGame, asm: Assembly-CSharp}
+      data:
+        _location:
+          isRoot: 0
+          _node:
+            id: 142
+          _positionFromCenter: -1
+        dirt: 0.38982916
+        condition: 0
+    000000C9:
+      type: {class: Segment, ns: PlantMiniGame, asm: Assembly-CSharp}
+      data:
+        location:
+          isRoot: 0
+          _node:
+            id: 142
+          _positionFromCenter: 0
+        depth: 5
+        age: 0
+        lengthRand: 0.9379369
+        node:
+          id: 223
+    000000CA:
+      type: {class: Leaf, ns: PlantMiniGame, asm: Assembly-CSharp}
+      data:
+        _location:
+          isRoot: 0
+          _node:
+            id: 142
+          _positionFromCenter: 1
+        dirt: 0.26307794
+        condition: 0
+    000000CB:
+      type: {class: Node, ns: PlantMiniGame, asm: Assembly-CSharp}
+      data:
+        _parent:
+          id: 149
+        centerIndex: 1
+        paths:
+        - _location:
+            isRoot: 0
+            _node:
+              id: 203
+            _positionFromCenter: -1
+          _segment:
+            id: 1
+          _leaf:
+            id: 224
+        - _location:
+            isRoot: 0
+            _node:
+              id: 203
+            _positionFromCenter: 0
+          _segment:
+            id: 1
+          _leaf:
+            id: 225
+        - _location:
+            isRoot: 0
+            _node:
+              id: 203
+            _positionFromCenter: 1
+          _segment:
+            id: 1
+          _leaf:
+            id: 226
+        size: 0
+        age: 0
+    000000CC:
+      type: {class: Node, ns: PlantMiniGame, asm: Assembly-CSharp}
+      data:
+        _parent:
+          id: 150
+        centerIndex: 1
+        paths:
+        - _location:
+            isRoot: 0
+            _node:
+              id: 204
+            _positionFromCenter: -1
+          _segment:
+            id: 1
+          _leaf:
+            id: 227
+        - _location:
+            isRoot: 0
+            _node:
+              id: 204
+            _positionFromCenter: 0
+          _segment:
+            id: 228
+          _leaf:
+            id: 1
+        - _location:
+            isRoot: 0
+            _node:
+              id: 204
+            _positionFromCenter: 1
+          _segment:
+            id: 1
+          _leaf:
+            id: 229
+        size: 0
+        age: 0
+    000000CD:
+      type: {class: Node, ns: PlantMiniGame, asm: Assembly-CSharp}
+      data:
+        _parent:
+          id: 151
+        centerIndex: 1
+        paths:
+        - _location:
+            isRoot: 0
+            _node:
+              id: 205
+            _positionFromCenter: -1
+          _segment:
+            id: 1
+          _leaf:
+            id: 230
+        - _location:
+            isRoot: 0
+            _node:
+              id: 205
+            _positionFromCenter: 0
+          _segment:
+            id: 1
+          _leaf:
+            id: 231
+        - _location:
+            isRoot: 0
+            _node:
+              id: 205
+            _positionFromCenter: 1
+          _segment:
+            id: 1
+          _leaf:
+            id: 232
+        size: 0
+        age: 0
+    000000CE:
+      type: {class: Node, ns: PlantMiniGame, asm: Assembly-CSharp}
+      data:
+        _parent:
+          id: 159
+        centerIndex: 1
+        paths:
+        - _location:
+            isRoot: 0
+            _node:
+              id: 206
+            _positionFromCenter: -1
+          _segment:
+            id: 1
+          _leaf:
+            id: 233
+        - _location:
+            isRoot: 0
+            _node:
+              id: 206
+            _positionFromCenter: 0
+          _segment:
+            id: 1
+          _leaf:
+            id: 234
+        - _location:
+            isRoot: 0
+            _node:
+              id: 206
+            _positionFromCenter: 1
+          _segment:
+            id: 1
+          _leaf:
+            id: 235
+        size: 0
+        age: 0
+    000000CF:
+      type: {class: Node, ns: PlantMiniGame, asm: Assembly-CSharp}
+      data:
+        _parent:
+          id: 165
+        centerIndex: 1
+        paths:
+        - _location:
+            isRoot: 0
+            _node:
+              id: 207
+            _positionFromCenter: -1
+          _segment:
+            id: 1
+          _leaf:
+            id: 236
+        - _location:
+            isRoot: 0
+            _node:
+              id: 207
+            _positionFromCenter: 0
+          _segment:
+            id: 1
+          _leaf:
+            id: 237
+        - _location:
+            isRoot: 0
+            _node:
+              id: 207
+            _positionFromCenter: 1
+          _segment:
+            id: 1
+          _leaf:
+            id: 238
+        size: 0
+        age: 0
+    000000D0:
+      type: {class: Node, ns: PlantMiniGame, asm: Assembly-CSharp}
+      data:
+        _parent:
+          id: 168
+        centerIndex: 1
+        paths:
+        - _location:
+            isRoot: 0
+            _node:
+              id: 208
+            _positionFromCenter: -1
+          _segment:
+            id: 1
+          _leaf:
+            id: 239
+        - _location:
+            isRoot: 0
+            _node:
+              id: 208
+            _positionFromCenter: 0
+          _segment:
+            id: 1
+          _leaf:
+            id: 240
+        - _location:
+            isRoot: 0
+            _node:
+              id: 208
+            _positionFromCenter: 1
+          _segment:
+            id: 1
+          _leaf:
+            id: 241
+        size: 0
+        age: 0
+    000000D1:
+      type: {class: Node, ns: PlantMiniGame, asm: Assembly-CSharp}
+      data:
+        _parent:
+          id: 174
+        centerIndex: 1
+        paths:
+        - _location:
+            isRoot: 0
+            _node:
+              id: 209
+            _positionFromCenter: -1
+          _segment:
+            id: 1
+          _leaf:
+            id: 242
+        - _location:
+            isRoot: 0
+            _node:
+              id: 209
+            _positionFromCenter: 0
+          _segment:
+            id: 243
+          _leaf:
+            id: 1
+        - _location:
+            isRoot: 0
+            _node:
+              id: 209
+            _positionFromCenter: 1
+          _segment:
+            id: 1
+          _leaf:
+            id: 244
+        size: 0
+        age: 0
+    000000D2:
+      type: {class: Node, ns: PlantMiniGame, asm: Assembly-CSharp}
+      data:
+        _parent:
+          id: 179
+        centerIndex: 1
+        paths:
+        - _location:
+            isRoot: 0
+            _node:
+              id: 210
+            _positionFromCenter: -1
+          _segment:
+            id: 1
+          _leaf:
+            id: 245
+        - _location:
+            isRoot: 0
+            _node:
+              id: 210
+            _positionFromCenter: 0
+          _segment:
+            id: 1
+          _leaf:
+            id: 246
+        - _location:
+            isRoot: 0
+            _node:
+              id: 210
+            _positionFromCenter: 1
+          _segment:
+            id: 1
+          _leaf:
+            id: 247
+        size: 0
+        age: 0
+    000000D3:
+      type: {class: Node, ns: PlantMiniGame, asm: Assembly-CSharp}
+      data:
+        _parent:
+          id: 180
+        centerIndex: 1
+        paths:
+        - _location:
+            isRoot: 0
+            _node:
+              id: 211
+            _positionFromCenter: -1
+          _segment:
+            id: 1
+          _leaf:
+            id: 248
+        - _location:
+            isRoot: 0
+            _node:
+              id: 211
+            _positionFromCenter: 0
+          _segment:
+            id: 1
+          _leaf:
+            id: 249
+        - _location:
+            isRoot: 0
+            _node:
+              id: 211
+            _positionFromCenter: 1
+          _segment:
+            id: 1
+          _leaf:
+            id: 250
+        size: 0
+        age: 0
+    000000D4:
+      type: {class: Node, ns: PlantMiniGame, asm: Assembly-CSharp}
+      data:
+        _parent:
+          id: 181
+        centerIndex: 1
+        paths:
+        - _location:
+            isRoot: 0
+            _node:
+              id: 212
+            _positionFromCenter: -1
+          _segment:
+            id: 1
+          _leaf:
+            id: 251
+        - _location:
+            isRoot: 0
+            _node:
+              id: 212
+            _positionFromCenter: 0
+          _segment:
+            id: 1
+          _leaf:
+            id: 252
+        - _location:
+            isRoot: 0
+            _node:
+              id: 212
+            _positionFromCenter: 1
+          _segment:
+            id: 1
+          _leaf:
+            id: 253
+        size: 0
+        age: 0
+    000000D5:
+      type: {class: Node, ns: PlantMiniGame, asm: Assembly-CSharp}
+      data:
+        _parent:
+          id: 185
+        centerIndex: 1
+        paths:
+        - _location:
+            isRoot: 0
+            _node:
+              id: 213
+            _positionFromCenter: -1
+          _segment:
+            id: 1
+          _leaf:
+            id: 254
+        - _location:
+            isRoot: 0
+            _node:
+              id: 213
+            _positionFromCenter: 0
+          _segment:
+            id: 1
+          _leaf:
+            id: 255
+        - _location:
+            isRoot: 0
+            _node:
+              id: 213
+            _positionFromCenter: 1
+          _segment:
+            id: 1
+          _leaf:
+            id: 256
+        size: 0
+        age: 0
+    000000D6:
+      type: {class: Node, ns: PlantMiniGame, asm: Assembly-CSharp}
+      data:
+        _parent:
+          id: 186
+        centerIndex: 1
+        paths:
+        - _location:
+            isRoot: 0
+            _node:
+              id: 214
+            _positionFromCenter: -1
+          _segment:
+            id: 1
+          _leaf:
+            id: 257
+        - _location:
+            isRoot: 0
+            _node:
+              id: 214
+            _positionFromCenter: 0
+          _segment:
+            id: 258
+          _leaf:
+            id: 1
+        - _location:
+            isRoot: 0
+            _node:
+              id: 214
+            _positionFromCenter: 1
+          _segment:
+            id: 1
+          _leaf:
+            id: 259
+        size: 0
+        age: 0
+    000000D7:
+      type: {class: Node, ns: PlantMiniGame, asm: Assembly-CSharp}
+      data:
+        _parent:
+          id: 187
+        centerIndex: 1
+        paths:
+        - _location:
+            isRoot: 0
+            _node:
+              id: 215
+            _positionFromCenter: -1
+          _segment:
+            id: 1
+          _leaf:
+            id: 260
+        - _location:
+            isRoot: 0
+            _node:
+              id: 215
+            _positionFromCenter: 0
+          _segment:
+            id: 1
+          _leaf:
+            id: 261
+        - _location:
+            isRoot: 0
+            _node:
+              id: 215
+            _positionFromCenter: 1
+          _segment:
+            id: 1
+          _leaf:
+            id: 262
+        size: 0
+        age: 0
+    000000D8:
+      type: {class: Node, ns: PlantMiniGame, asm: Assembly-CSharp}
+      data:
+        _parent:
+          id: 188
+        centerIndex: 1
+        paths:
+        - _location:
+            isRoot: 0
+            _node:
+              id: 216
+            _positionFromCenter: -1
+          _segment:
+            id: 1
+          _leaf:
+            id: 263
+        - _location:
+            isRoot: 0
+            _node:
+              id: 216
+            _positionFromCenter: 0
+          _segment:
+            id: 1
+          _leaf:
+            id: 264
+        - _location:
+            isRoot: 0
+            _node:
+              id: 216
+            _positionFromCenter: 1
+          _segment:
+            id: 1
+          _leaf:
+            id: 265
+        size: 0
+        age: 0
+    000000D9:
+      type: {class: Node, ns: PlantMiniGame, asm: Assembly-CSharp}
+      data:
+        _parent:
+          id: 189
+        centerIndex: 1
+        paths:
+        - _location:
+            isRoot: 0
+            _node:
+              id: 217
+            _positionFromCenter: -1
+          _segment:
+            id: 1
+          _leaf:
+            id: 266
+        - _location:
+            isRoot: 0
+            _node:
+              id: 217
+            _positionFromCenter: 0
+          _segment:
+            id: 267
+          _leaf:
+            id: 1
+        - _location:
+            isRoot: 0
+            _node:
+              id: 217
+            _positionFromCenter: 1
+          _segment:
+            id: 268
+          _leaf:
+            id: 1
+        size: 0
+        age: 0
+    000000DA:
+      type: {class: Node, ns: PlantMiniGame, asm: Assembly-CSharp}
+      data:
+        _parent:
+          id: 190
+        centerIndex: 1
+        paths:
+        - _location:
+            isRoot: 0
+            _node:
+              id: 218
+            _positionFromCenter: -1
+          _segment:
+            id: 1
+          _leaf:
+            id: 269
+        - _location:
+            isRoot: 0
+            _node:
+              id: 218
+            _positionFromCenter: 0
+          _segment:
+            id: 1
+          _leaf:
+            id: 270
+        - _location:
+            isRoot: 0
+            _node:
+              id: 218
+            _positionFromCenter: 1
+          _segment:
+            id: 1
+          _leaf:
+            id: 271
+        size: 0
+        age: 0
+    000000DB:
+      type: {class: Node, ns: PlantMiniGame, asm: Assembly-CSharp}
+      data:
+        _parent:
+          id: 191
+        centerIndex: 1
+        paths:
+        - _location:
+            isRoot: 0
+            _node:
+              id: 219
+            _positionFromCenter: -1
+          _segment:
+            id: 1
+          _leaf:
+            id: 272
+        - _location:
+            isRoot: 0
+            _node:
+              id: 219
+            _positionFromCenter: 0
+          _segment:
+            id: 1
+          _leaf:
+            id: 273
+        - _location:
+            isRoot: 0
+            _node:
+              id: 219
+            _positionFromCenter: 1
+          _segment:
+            id: 1
+          _leaf:
+            id: 274
+        size: 0
+        age: 0
+    000000DC:
+      type: {class: Node, ns: PlantMiniGame, asm: Assembly-CSharp}
+      data:
+        _parent:
+          id: 192
+        centerIndex: 1
+        paths:
+        - _location:
+            isRoot: 0
+            _node:
+              id: 220
+            _positionFromCenter: -1
+          _segment:
+            id: 1
+          _leaf:
+            id: 275
+        - _location:
+            isRoot: 0
+            _node:
+              id: 220
+            _positionFromCenter: 0
+          _segment:
+            id: 276
+          _leaf:
+            id: 1
+        - _location:
+            isRoot: 0
+            _node:
+              id: 220
+            _positionFromCenter: 1
+          _segment:
+            id: 1
+          _leaf:
+            id: 277
+        size: 0
+        age: 0
+    000000DD:
+      type: {class: Node, ns: PlantMiniGame, asm: Assembly-CSharp}
+      data:
+        _parent:
+          id: 193
+        centerIndex: 1
+        paths:
+        - _location:
+            isRoot: 0
+            _node:
+              id: 221
+            _positionFromCenter: -1
+          _segment:
+            id: 1
+          _leaf:
+            id: 278
+        - _location:
+            isRoot: 0
+            _node:
+              id: 221
+            _positionFromCenter: 0
+          _segment:
+            id: 1
+          _leaf:
+            id: 279
+        - _location:
+            isRoot: 0
+            _node:
+              id: 221
+            _positionFromCenter: 1
+          _segment:
+            id: 1
+          _leaf:
+            id: 280
+        size: 0
+        age: 0
+    000000DE:
+      type: {class: Node, ns: PlantMiniGame, asm: Assembly-CSharp}
+      data:
+        _parent:
+          id: 198
+        centerIndex: 1
+        paths:
+        - _location:
+            isRoot: 0
+            _node:
+              id: 222
+            _positionFromCenter: -1
+          _segment:
+            id: 1
+          _leaf:
+            id: 281
+        - _location:
+            isRoot: 0
+            _node:
+              id: 222
+            _positionFromCenter: 0
+          _segment:
+            id: 1
+          _leaf:
+            id: 282
+        - _location:
+            isRoot: 0
+            _node:
+              id: 222
+            _positionFromCenter: 1
+          _segment:
+            id: 1
+          _leaf:
+            id: 283
+        size: 0
+        age: 0
+    000000DF:
+      type: {class: Node, ns: PlantMiniGame, asm: Assembly-CSharp}
+      data:
+        _parent:
+          id: 201
+        centerIndex: 1
+        paths:
+        - _location:
+            isRoot: 0
+            _node:
+              id: 223
+            _positionFromCenter: -1
+          _segment:
+            id: 1
+          _leaf:
+            id: 284
+        - _location:
+            isRoot: 0
+            _node:
+              id: 223
+            _positionFromCenter: 0
+          _segment:
+            id: 1
+          _leaf:
+            id: 285
+        - _location:
+            isRoot: 0
+            _node:
+              id: 223
+            _positionFromCenter: 1
+          _segment:
+            id: 1
+          _leaf:
+            id: 286
+        size: 0
+        age: 0
+    000000E0:
+      type: {class: Leaf, ns: PlantMiniGame, asm: Assembly-CSharp}
+      data:
+        _location:
+          isRoot: 0
+          _node:
+            id: 203
+          _positionFromCenter: -1
+        dirt: 0.15915576
+        condition: 0
+    000000E1:
+      type: {class: Leaf, ns: PlantMiniGame, asm: Assembly-CSharp}
+      data:
+        _location:
+          isRoot: 0
+          _node:
+            id: 203
+          _positionFromCenter: 0
+        dirt: 0.40612686
+        condition: 0
+    000000E2:
+      type: {class: Leaf, ns: PlantMiniGame, asm: Assembly-CSharp}
+      data:
+        _location:
+          isRoot: 0
+          _node:
+            id: 203
+          _positionFromCenter: 1
+        dirt: 0.15599884
+        condition: 0
+    000000E3:
+      type: {class: Leaf, ns: PlantMiniGame, asm: Assembly-CSharp}
+      data:
+        _location:
+          isRoot: 0
+          _node:
+            id: 204
+          _positionFromCenter: -1
+        dirt: 0.5010637
+        condition: 1
+    000000E4:
+      type: {class: Segment, ns: PlantMiniGame, asm: Assembly-CSharp}
+      data:
+        location:
+          isRoot: 0
+          _node:
+            id: 204
+          _positionFromCenter: 0
+        depth: 6
+        age: 0
+        lengthRand: 0.32493547
+        node:
+          id: 287
+    000000E5:
+      type: {class: Leaf, ns: PlantMiniGame, asm: Assembly-CSharp}
+      data:
+        _location:
+          isRoot: 0
+          _node:
+            id: 204
+          _positionFromCenter: 1
+        dirt: 0.70572966
+        condition: 0
+    000000E6:
+      type: {class: Leaf, ns: PlantMiniGame, asm: Assembly-CSharp}
+      data:
+        _location:
+          isRoot: 0
+          _node:
+            id: 205
+          _positionFromCenter: -1
+        dirt: 0.3764914
+        condition: 0
+    000000E7:
+      type: {class: Leaf, ns: PlantMiniGame, asm: Assembly-CSharp}
+      data:
+        _location:
+          isRoot: 0
+          _node:
+            id: 205
+          _positionFromCenter: 0
+        dirt: 0.37263882
+        condition: 0
+    000000E8:
+      type: {class: Leaf, ns: PlantMiniGame, asm: Assembly-CSharp}
+      data:
+        _location:
+          isRoot: 0
+          _node:
+            id: 205
+          _positionFromCenter: 1
+        dirt: 0.35686374
+        condition: 0
+    000000E9:
+      type: {class: Leaf, ns: PlantMiniGame, asm: Assembly-CSharp}
+      data:
+        _location:
+          isRoot: 0
+          _node:
+            id: 206
+          _positionFromCenter: -1
+        dirt: 0.2208274
+        condition: 0
+    000000EA:
+      type: {class: Leaf, ns: PlantMiniGame, asm: Assembly-CSharp}
+      data:
+        _location:
+          isRoot: 0
+          _node:
+            id: 206
+          _positionFromCenter: 0
+        dirt: 0.16432323
+        condition: 1
+    000000EB:
+      type: {class: Leaf, ns: PlantMiniGame, asm: Assembly-CSharp}
+      data:
+        _location:
+          isRoot: 0
+          _node:
+            id: 206
+          _positionFromCenter: 1
+        dirt: 0.27349818
+        condition: 1
+    000000EC:
+      type: {class: Leaf, ns: PlantMiniGame, asm: Assembly-CSharp}
+      data:
+        _location:
+          isRoot: 0
+          _node:
+            id: 207
+          _positionFromCenter: -1
+        dirt: 0.2507548
+        condition: 0
+    000000ED:
+      type: {class: Leaf, ns: PlantMiniGame, asm: Assembly-CSharp}
+      data:
+        _location:
+          isRoot: 0
+          _node:
+            id: 207
+          _positionFromCenter: 0
+        dirt: 0.13874839
+        condition: 0
+    000000EE:
+      type: {class: Leaf, ns: PlantMiniGame, asm: Assembly-CSharp}
+      data:
+        _location:
+          isRoot: 0
+          _node:
+            id: 207
+          _positionFromCenter: 1
+        dirt: 0.20068352
+        condition: 1
+    000000EF:
+      type: {class: Leaf, ns: PlantMiniGame, asm: Assembly-CSharp}
+      data:
+        _location:
+          isRoot: 0
+          _node:
+            id: 208
+          _positionFromCenter: -1
+        dirt: 0.22396556
+        condition: 0
+    000000F0:
+      type: {class: Leaf, ns: PlantMiniGame, asm: Assembly-CSharp}
+      data:
+        _location:
+          isRoot: 0
+          _node:
+            id: 208
+          _positionFromCenter: 0
+        dirt: 0.27436975
+        condition: 0
+    000000F1:
+      type: {class: Leaf, ns: PlantMiniGame, asm: Assembly-CSharp}
+      data:
+        _location:
+          isRoot: 0
+          _node:
+            id: 208
+          _positionFromCenter: 1
+        dirt: 0.3431358
+        condition: 0
+    000000F2:
+      type: {class: Leaf, ns: PlantMiniGame, asm: Assembly-CSharp}
+      data:
+        _location:
+          isRoot: 0
+          _node:
+            id: 209
+          _positionFromCenter: -1
+        dirt: 0.7645786
+        condition: 1
+    000000F3:
+      type: {class: Segment, ns: PlantMiniGame, asm: Assembly-CSharp}
+      data:
+        location:
+          isRoot: 0
+          _node:
+            id: 209
+          _positionFromCenter: 0
+        depth: 6
+        age: 0
+        lengthRand: 0.29381016
+        node:
+          id: 288
+    000000F4:
+      type: {class: Leaf, ns: PlantMiniGame, asm: Assembly-CSharp}
+      data:
+        _location:
+          isRoot: 0
+          _node:
+            id: 209
+          _positionFromCenter: 1
+        dirt: 0.7742296
+        condition: 0
+    000000F5:
+      type: {class: Leaf, ns: PlantMiniGame, asm: Assembly-CSharp}
+      data:
+        _location:
+          isRoot: 0
+          _node:
+            id: 210
+          _positionFromCenter: -1
+        dirt: 0.31893992
+        condition: 0
+    000000F6:
+      type: {class: Leaf, ns: PlantMiniGame, asm: Assembly-CSharp}
+      data:
+        _location:
+          isRoot: 0
+          _node:
+            id: 210
+          _positionFromCenter: 0
+        dirt: 0.049557753
+        condition: 0
+    000000F7:
+      type: {class: Leaf, ns: PlantMiniGame, asm: Assembly-CSharp}
+      data:
+        _location:
+          isRoot: 0
+          _node:
+            id: 210
+          _positionFromCenter: 1
+        dirt: 0.37385207
+        condition: 0
+    000000F8:
+      type: {class: Leaf, ns: PlantMiniGame, asm: Assembly-CSharp}
+      data:
+        _location:
+          isRoot: 0
+          _node:
+            id: 211
+          _positionFromCenter: -1
+        dirt: 0.465976
+        condition: 0
+    000000F9:
+      type: {class: Leaf, ns: PlantMiniGame, asm: Assembly-CSharp}
+      data:
+        _location:
+          isRoot: 0
+          _node:
+            id: 211
+          _positionFromCenter: 0
+        dirt: 0.2296459
+        condition: 0
+    000000FA:
+      type: {class: Leaf, ns: PlantMiniGame, asm: Assembly-CSharp}
+      data:
+        _location:
+          isRoot: 0
+          _node:
+            id: 211
+          _positionFromCenter: 1
+        dirt: 0.49081323
+        condition: 0
+    000000FB:
+      type: {class: Leaf, ns: PlantMiniGame, asm: Assembly-CSharp}
+      data:
+        _location:
+          isRoot: 0
+          _node:
+            id: 212
+          _positionFromCenter: -1
+        dirt: 0.16951594
+        condition: 0
+    000000FC:
+      type: {class: Leaf, ns: PlantMiniGame, asm: Assembly-CSharp}
+      data:
+        _location:
+          isRoot: 0
+          _node:
+            id: 212
+          _positionFromCenter: 0
+        dirt: 0.03415752
+        condition: 0
+    000000FD:
+      type: {class: Leaf, ns: PlantMiniGame, asm: Assembly-CSharp}
+      data:
+        _location:
+          isRoot: 0
+          _node:
+            id: 212
+          _positionFromCenter: 1
+        dirt: 0.22652462
+        condition: 0
+    000000FE:
+      type: {class: Leaf, ns: PlantMiniGame, asm: Assembly-CSharp}
+      data:
+        _location:
+          isRoot: 0
+          _node:
+            id: 213
+          _positionFromCenter: -1
+        dirt: 0.24707854
+        condition: 0
+    000000FF:
+      type: {class: Leaf, ns: PlantMiniGame, asm: Assembly-CSharp}
+      data:
+        _location:
+          isRoot: 0
+          _node:
+            id: 213
+          _positionFromCenter: 0
+        dirt: 0.23797393
+        condition: 0
+    00000100:
+      type: {class: Leaf, ns: PlantMiniGame, asm: Assembly-CSharp}
+      data:
+        _location:
+          isRoot: 0
+          _node:
+            id: 213
+          _positionFromCenter: 1
+        dirt: 0.22658545
+        condition: 0
+    00000101:
+      type: {class: Leaf, ns: PlantMiniGame, asm: Assembly-CSharp}
+      data:
+        _location:
+          isRoot: 0
+          _node:
+            id: 214
+          _positionFromCenter: -1
+        dirt: 0.3147485
+        condition: 1
+    00000102:
+      type: {class: Segment, ns: PlantMiniGame, asm: Assembly-CSharp}
+      data:
+        location:
+          isRoot: 0
+          _node:
+            id: 214
+          _positionFromCenter: 0
+        depth: 6
+        age: 0
+        lengthRand: 0.3190849
+        node:
+          id: 289
+    00000103:
+      type: {class: Leaf, ns: PlantMiniGame, asm: Assembly-CSharp}
+      data:
+        _location:
+          isRoot: 0
+          _node:
+            id: 214
+          _positionFromCenter: 1
+        dirt: 0.24401373
+        condition: 0
+    00000104:
+      type: {class: Leaf, ns: PlantMiniGame, asm: Assembly-CSharp}
+      data:
+        _location:
+          isRoot: 0
+          _node:
+            id: 215
+          _positionFromCenter: -1
+        dirt: 0.37508512
+        condition: 0
+    00000105:
+      type: {class: Leaf, ns: PlantMiniGame, asm: Assembly-CSharp}
+      data:
+        _location:
+          isRoot: 0
+          _node:
+            id: 215
+          _positionFromCenter: 0
+        dirt: 0.15263338
+        condition: 0
+    00000106:
+      type: {class: Leaf, ns: PlantMiniGame, asm: Assembly-CSharp}
+      data:
+        _location:
+          isRoot: 0
+          _node:
+            id: 215
+          _positionFromCenter: 1
+        dirt: 0.2636577
+        condition: 0
+    00000107:
+      type: {class: Leaf, ns: PlantMiniGame, asm: Assembly-CSharp}
+      data:
+        _location:
+          isRoot: 0
+          _node:
+            id: 216
+          _positionFromCenter: -1
+        dirt: 0.56163543
+        condition: 0
+    00000108:
+      type: {class: Leaf, ns: PlantMiniGame, asm: Assembly-CSharp}
+      data:
+        _location:
+          isRoot: 0
+          _node:
+            id: 216
+          _positionFromCenter: 0
+        dirt: 0.42414725
+        condition: 0
+    00000109:
+      type: {class: Leaf, ns: PlantMiniGame, asm: Assembly-CSharp}
+      data:
+        _location:
+          isRoot: 0
+          _node:
+            id: 216
+          _positionFromCenter: 1
+        dirt: 0.5173432
+        condition: 1
+    0000010A:
+      type: {class: Leaf, ns: PlantMiniGame, asm: Assembly-CSharp}
+      data:
+        _location:
+          isRoot: 0
+          _node:
+            id: 217
+          _positionFromCenter: -1
+        dirt: 0.672405
+        condition: 0
+    0000010B:
+      type: {class: Segment, ns: PlantMiniGame, asm: Assembly-CSharp}
+      data:
+        location:
+          isRoot: 0
+          _node:
+            id: 217
+          _positionFromCenter: 0
+        depth: 6
+        age: 0
+        lengthRand: 0.89261794
+        node:
+          id: 290
+    0000010C:
+      type: {class: Segment, ns: PlantMiniGame, asm: Assembly-CSharp}
+      data:
+        location:
+          isRoot: 0
+          _node:
+            id: 217
+          _positionFromCenter: 1
+        depth: 6
+        age: 0
+        lengthRand: 0.983361
+        node:
+          id: 291
+    0000010D:
+      type: {class: Leaf, ns: PlantMiniGame, asm: Assembly-CSharp}
+      data:
+        _location:
+          isRoot: 0
+          _node:
+            id: 218
+          _positionFromCenter: -1
+        dirt: 0.65266275
+        condition: 0
+    0000010E:
+      type: {class: Leaf, ns: PlantMiniGame, asm: Assembly-CSharp}
+      data:
+        _location:
+          isRoot: 0
+          _node:
+            id: 218
+          _positionFromCenter: 0
+        dirt: 0.41047937
+        condition: 0
+    0000010F:
+      type: {class: Leaf, ns: PlantMiniGame, asm: Assembly-CSharp}
+      data:
+        _location:
+          isRoot: 0
+          _node:
+            id: 218
+          _positionFromCenter: 1
+        dirt: 0.44077826
+        condition: 0
+    00000110:
+      type: {class: Leaf, ns: PlantMiniGame, asm: Assembly-CSharp}
+      data:
+        _location:
+          isRoot: 0
+          _node:
+            id: 219
+          _positionFromCenter: -1
+        dirt: 0.12912492
+        condition: 1
+    00000111:
+      type: {class: Leaf, ns: PlantMiniGame, asm: Assembly-CSharp}
+      data:
+        _location:
+          isRoot: 0
+          _node:
+            id: 219
+          _positionFromCenter: 0
+        dirt: 0.05567298
+        condition: 0
+    00000112:
+      type: {class: Leaf, ns: PlantMiniGame, asm: Assembly-CSharp}
+      data:
+        _location:
+          isRoot: 0
+          _node:
+            id: 219
+          _positionFromCenter: 1
+        dirt: 0.31222546
+        condition: 0
+    00000113:
+      type: {class: Leaf, ns: PlantMiniGame, asm: Assembly-CSharp}
+      data:
+        _location:
+          isRoot: 0
+          _node:
+            id: 220
+          _positionFromCenter: -1
+        dirt: 0.3777096
+        condition: 0
+    00000114:
+      type: {class: Segment, ns: PlantMiniGame, asm: Assembly-CSharp}
+      data:
+        location:
+          isRoot: 0
+          _node:
+            id: 220
+          _positionFromCenter: 0
+        depth: 6
+        age: 0
+        lengthRand: 0.2120867
+        node:
+          id: 292
+    00000115:
+      type: {class: Leaf, ns: PlantMiniGame, asm: Assembly-CSharp}
+      data:
+        _location:
+          isRoot: 0
+          _node:
+            id: 220
+          _positionFromCenter: 1
+        dirt: 0.50850683
+        condition: 1
+    00000116:
+      type: {class: Leaf, ns: PlantMiniGame, asm: Assembly-CSharp}
+      data:
+        _location:
+          isRoot: 0
+          _node:
+            id: 221
+          _positionFromCenter: -1
+        dirt: 0.37522787
+        condition: 0
+    00000117:
+      type: {class: Leaf, ns: PlantMiniGame, asm: Assembly-CSharp}
+      data:
+        _location:
+          isRoot: 0
+          _node:
+            id: 221
+          _positionFromCenter: 0
+        dirt: 0.15780506
+        condition: 0
+    00000118:
+      type: {class: Leaf, ns: PlantMiniGame, asm: Assembly-CSharp}
+      data:
+        _location:
+          isRoot: 0
+          _node:
+            id: 221
+          _positionFromCenter: 1
+        dirt: 0.2827384
+        condition: 0
+    00000119:
+      type: {class: Leaf, ns: PlantMiniGame, asm: Assembly-CSharp}
+      data:
+        _location:
+          isRoot: 0
+          _node:
+            id: 222
+          _positionFromCenter: -1
+        dirt: 0.67526305
+        condition: 0
+    0000011A:
+      type: {class: Leaf, ns: PlantMiniGame, asm: Assembly-CSharp}
+      data:
+        _location:
+          isRoot: 0
+          _node:
+            id: 222
+          _positionFromCenter: 0
+        dirt: 0.6625769
+        condition: 0
+    0000011B:
+      type: {class: Leaf, ns: PlantMiniGame, asm: Assembly-CSharp}
+      data:
+        _location:
+          isRoot: 0
+          _node:
+            id: 222
+          _positionFromCenter: 1
+        dirt: 0.61996454
+        condition: 1
+    0000011C:
+      type: {class: Leaf, ns: PlantMiniGame, asm: Assembly-CSharp}
+      data:
+        _location:
+          isRoot: 0
+          _node:
+            id: 223
+          _positionFromCenter: -1
+        dirt: 0.15294416
+        condition: 0
+    0000011D:
+      type: {class: Leaf, ns: PlantMiniGame, asm: Assembly-CSharp}
+      data:
+        _location:
+          isRoot: 0
+          _node:
+            id: 223
+          _positionFromCenter: 0
+        dirt: 0.07556514
+        condition: 0
+    0000011E:
+      type: {class: Leaf, ns: PlantMiniGame, asm: Assembly-CSharp}
+      data:
+        _location:
+          isRoot: 0
+          _node:
+            id: 223
+          _positionFromCenter: 1
+        dirt: 0.23900744
+        condition: 0
+    0000011F:
+      type: {class: Node, ns: PlantMiniGame, asm: Assembly-CSharp}
+      data:
+        _parent:
+          id: 228
+        centerIndex: 1
+        paths:
+        - _location:
+            isRoot: 0
+            _node:
+              id: 287
+            _positionFromCenter: -1
+          _segment:
+            id: 1
+          _leaf:
+            id: 293
+        - _location:
+            isRoot: 0
+            _node:
+              id: 287
+            _positionFromCenter: 0
+          _segment:
+            id: 1
+          _leaf:
+            id: 294
+        - _location:
+            isRoot: 0
+            _node:
+              id: 287
+            _positionFromCenter: 1
+          _segment:
+            id: 1
+          _leaf:
+            id: 295
+        size: 0
+        age: 0
+    00000120:
+      type: {class: Node, ns: PlantMiniGame, asm: Assembly-CSharp}
+      data:
+        _parent:
+          id: 243
+        centerIndex: 1
+        paths:
+        - _location:
+            isRoot: 0
+            _node:
+              id: 288
+            _positionFromCenter: -1
+          _segment:
+            id: 1
+          _leaf:
+            id: 296
+        - _location:
+            isRoot: 0
+            _node:
+              id: 288
+            _positionFromCenter: 0
+          _segment:
+            id: 1
+          _leaf:
+            id: 297
+        - _location:
+            isRoot: 0
+            _node:
+              id: 288
+            _positionFromCenter: 1
+          _segment:
+            id: 1
+          _leaf:
+            id: 298
+        size: 0
+        age: 0
+    00000121:
+      type: {class: Node, ns: PlantMiniGame, asm: Assembly-CSharp}
+      data:
+        _parent:
+          id: 258
+        centerIndex: 1
+        paths:
+        - _location:
+            isRoot: 0
+            _node:
+              id: 289
+            _positionFromCenter: -1
+          _segment:
+            id: 1
+          _leaf:
+            id: 299
+        - _location:
+            isRoot: 0
+            _node:
+              id: 289
+            _positionFromCenter: 0
+          _segment:
+            id: 300
+          _leaf:
+            id: 1
+        - _location:
+            isRoot: 0
+            _node:
+              id: 289
+            _positionFromCenter: 1
+          _segment:
+            id: 1
+          _leaf:
+            id: 301
+        size: 0
+        age: 0
+    00000122:
+      type: {class: Node, ns: PlantMiniGame, asm: Assembly-CSharp}
+      data:
+        _parent:
+          id: 267
+        centerIndex: 1
+        paths:
+        - _location:
+            isRoot: 0
+            _node:
+              id: 290
+            _positionFromCenter: -1
+          _segment:
+            id: 1
+          _leaf:
+            id: 302
+        - _location:
+            isRoot: 0
+            _node:
+              id: 290
+            _positionFromCenter: 0
+          _segment:
+            id: 303
+          _leaf:
+            id: 1
+        - _location:
+            isRoot: 0
+            _node:
+              id: 290
+            _positionFromCenter: 1
+          _segment:
+            id: 1
+          _leaf:
+            id: 304
+        size: 0
+        age: 0
+    00000123:
+      type: {class: Node, ns: PlantMiniGame, asm: Assembly-CSharp}
+      data:
+        _parent:
+          id: 268
+        centerIndex: 1
+        paths:
+        - _location:
+            isRoot: 0
+            _node:
+              id: 291
+            _positionFromCenter: -1
+          _segment:
+            id: 1
+          _leaf:
+            id: 305
+        - _location:
+            isRoot: 0
+            _node:
+              id: 291
+            _positionFromCenter: 0
+          _segment:
+            id: 1
+          _leaf:
+            id: 306
+        - _location:
+            isRoot: 0
+            _node:
+              id: 291
+            _positionFromCenter: 1
+          _segment:
+            id: 1
+          _leaf:
+            id: 307
+        size: 0
+        age: 0
+    00000124:
+      type: {class: Node, ns: PlantMiniGame, asm: Assembly-CSharp}
+      data:
+        _parent:
+          id: 276
+        centerIndex: 1
+        paths:
+        - _location:
+            isRoot: 0
+            _node:
+              id: 292
+            _positionFromCenter: -1
+          _segment:
+            id: 1
+          _leaf:
+            id: 308
+        - _location:
+            isRoot: 0
+            _node:
+              id: 292
+            _positionFromCenter: 0
+          _segment:
+            id: 1
+          _leaf:
+            id: 309
+        - _location:
+            isRoot: 0
+            _node:
+              id: 292
+            _positionFromCenter: 1
+          _segment:
+            id: 1
+          _leaf:
+            id: 310
+        size: 0
+        age: 0
+    00000125:
+      type: {class: Leaf, ns: PlantMiniGame, asm: Assembly-CSharp}
+      data:
+        _location:
+          isRoot: 0
+          _node:
+            id: 287
+          _positionFromCenter: -1
+        dirt: 0.37237847
+        condition: 1
+    00000126:
+      type: {class: Leaf, ns: PlantMiniGame, asm: Assembly-CSharp}
+      data:
+        _location:
+          isRoot: 0
+          _node:
+            id: 287
+          _positionFromCenter: 0
+        dirt: 0.37573737
+        condition: 0
+    00000127:
+      type: {class: Leaf, ns: PlantMiniGame, asm: Assembly-CSharp}
+      data:
+        _location:
+          isRoot: 0
+          _node:
+            id: 287
+          _positionFromCenter: 1
+        dirt: 0.11398552
+        condition: 0
+    00000128:
+      type: {class: Leaf, ns: PlantMiniGame, asm: Assembly-CSharp}
+      data:
+        _location:
+          isRoot: 0
+          _node:
+            id: 288
+          _positionFromCenter: -1
+        dirt: 0.2316764
+        condition: 0
+    00000129:
+      type: {class: Leaf, ns: PlantMiniGame, asm: Assembly-CSharp}
+      data:
+        _location:
+          isRoot: 0
+          _node:
+            id: 288
+          _positionFromCenter: 0
+        dirt: 0.26223484
+        condition: 0
+    0000012A:
+      type: {class: Leaf, ns: PlantMiniGame, asm: Assembly-CSharp}
+      data:
+        _location:
+          isRoot: 0
+          _node:
+            id: 288
+          _positionFromCenter: 1
+        dirt: 0.14711249
+        condition: 1
+    0000012B:
+      type: {class: Leaf, ns: PlantMiniGame, asm: Assembly-CSharp}
+      data:
+        _location:
+          isRoot: 0
+          _node:
+            id: 289
+          _positionFromCenter: -1
+        dirt: 0.33104432
+        condition: 1
+    0000012C:
+      type: {class: Segment, ns: PlantMiniGame, asm: Assembly-CSharp}
+      data:
+        location:
+          isRoot: 0
+          _node:
+            id: 289
+          _positionFromCenter: 0
+        depth: 7
+        age: 0
+        lengthRand: 0.29045823
+        node:
+          id: 311
+    0000012D:
+      type: {class: Leaf, ns: PlantMiniGame, asm: Assembly-CSharp}
+      data:
+        _location:
+          isRoot: 0
+          _node:
+            id: 289
+          _positionFromCenter: 1
+        dirt: 0.3792318
+        condition: 0
+    0000012E:
+      type: {class: Leaf, ns: PlantMiniGame, asm: Assembly-CSharp}
+      data:
+        _location:
+          isRoot: 0
+          _node:
+            id: 290
+          _positionFromCenter: -1
+        dirt: 0.65318286
+        condition: 0
+    0000012F:
+      type: {class: Segment, ns: PlantMiniGame, asm: Assembly-CSharp}
+      data:
+        location:
+          isRoot: 0
+          _node:
+            id: 290
+          _positionFromCenter: 0
+        depth: 7
+        age: 0
+        lengthRand: 0.8877717
+        node:
+          id: 312
+    00000130:
+      type: {class: Leaf, ns: PlantMiniGame, asm: Assembly-CSharp}
+      data:
+        _location:
+          isRoot: 0
+          _node:
+            id: 290
+          _positionFromCenter: 1
+        dirt: 0.46375215
+        condition: 0
+    00000131:
+      type: {class: Leaf, ns: PlantMiniGame, asm: Assembly-CSharp}
+      data:
+        _location:
+          isRoot: 0
+          _node:
+            id: 291
+          _positionFromCenter: -1
+        dirt: 0.06683249
+        condition: 0
+    00000132:
+      type: {class: Leaf, ns: PlantMiniGame, asm: Assembly-CSharp}
+      data:
+        _location:
+          isRoot: 0
+          _node:
+            id: 291
+          _positionFromCenter: 0
+        dirt: 0.19821145
+        condition: 0
+    00000133:
+      type: {class: Leaf, ns: PlantMiniGame, asm: Assembly-CSharp}
+      data:
+        _location:
+          isRoot: 0
+          _node:
+            id: 291
+          _positionFromCenter: 1
+        dirt: 0.47222218
+        condition: 0
+    00000134:
+      type: {class: Leaf, ns: PlantMiniGame, asm: Assembly-CSharp}
+      data:
+        _location:
+          isRoot: 0
+          _node:
+            id: 292
+          _positionFromCenter: -1
+        dirt: 0.19138387
+        condition: 0
+    00000135:
+      type: {class: Leaf, ns: PlantMiniGame, asm: Assembly-CSharp}
+      data:
+        _location:
+          isRoot: 0
+          _node:
+            id: 292
+          _positionFromCenter: 0
+        dirt: 0.39731354
+        condition: 0
+    00000136:
+      type: {class: Leaf, ns: PlantMiniGame, asm: Assembly-CSharp}
+      data:
+        _location:
+          isRoot: 0
+          _node:
+            id: 292
+          _positionFromCenter: 1
+        dirt: 0.34156543
+        condition: 0
+    00000137:
+      type: {class: Node, ns: PlantMiniGame, asm: Assembly-CSharp}
+      data:
+        _parent:
+          id: 300
+        centerIndex: 1
+        paths:
+        - _location:
+            isRoot: 0
+            _node:
+              id: 311
+            _positionFromCenter: -1
+          _segment:
+            id: 1
+          _leaf:
+            id: 313
+        - _location:
+            isRoot: 0
+            _node:
+              id: 311
+            _positionFromCenter: 0
+          _segment:
+            id: 1
+          _leaf:
+            id: 314
+        - _location:
+            isRoot: 0
+            _node:
+              id: 311
+            _positionFromCenter: 1
+          _segment:
+            id: 1
+          _leaf:
+            id: 315
+        size: 0
+        age: 0
+    00000138:
+      type: {class: Node, ns: PlantMiniGame, asm: Assembly-CSharp}
+      data:
+        _parent:
+          id: 303
+        centerIndex: 1
+        paths:
+        - _location:
+            isRoot: 0
+            _node:
+              id: 312
+            _positionFromCenter: -1
+          _segment:
+            id: 1
+          _leaf:
+            id: 316
+        - _location:
+            isRoot: 0
+            _node:
+              id: 312
+            _positionFromCenter: 0
+          _segment:
+            id: 1
+          _leaf:
+            id: 317
+        - _location:
+            isRoot: 0
+            _node:
+              id: 312
+            _positionFromCenter: 1
+          _segment:
+            id: 1
+          _leaf:
+            id: 318
+        size: 0
+        age: 0
+    00000139:
+      type: {class: Leaf, ns: PlantMiniGame, asm: Assembly-CSharp}
+      data:
+        _location:
+          isRoot: 0
+          _node:
+            id: 311
+          _positionFromCenter: -1
+        dirt: 0.17945702
+        condition: 1
+    0000013A:
+      type: {class: Leaf, ns: PlantMiniGame, asm: Assembly-CSharp}
+      data:
+        _location:
+          isRoot: 0
+          _node:
+            id: 311
+          _positionFromCenter: 0
+        dirt: 0.18709473
+        condition: 1
+    0000013B:
+      type: {class: Leaf, ns: PlantMiniGame, asm: Assembly-CSharp}
+      data:
+        _location:
+          isRoot: 0
+          _node:
+            id: 311
+          _positionFromCenter: 1
+        dirt: 0.24481192
+        condition: 0
+    0000013C:
+      type: {class: Leaf, ns: PlantMiniGame, asm: Assembly-CSharp}
+      data:
+        _location:
+          isRoot: 0
+          _node:
+            id: 312
+          _positionFromCenter: -1
+        dirt: 0.17281924
+        condition: 0
+    0000013D:
+      type: {class: Leaf, ns: PlantMiniGame, asm: Assembly-CSharp}
+      data:
+        _location:
+          isRoot: 0
+          _node:
+            id: 312
+          _positionFromCenter: 0
+        dirt: 0.16185476
+        condition: 0
+    0000013E:
+      type: {class: Leaf, ns: PlantMiniGame, asm: Assembly-CSharp}
+      data:
+        _location:
+          isRoot: 0
+          _node:
+            id: 312
+          _positionFromCenter: 1
+        dirt: 0.41033447
+        condition: 0

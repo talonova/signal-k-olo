@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 564b307e494b0d9418d691083e4e74ee, type: 3}
+  m_Name: Aaron Intro Email
+  m_EditorClassIdentifier: 
+  _from: '[GOVT]'
+  _content: "Greetings, Colonist!\nYou are recieving this message to inform you of
+    the impending arrival of a new colonist who shall fulfil the requirement of Electrical
+    Engineer for the colony. \n\nAaron is certified macro and micro electrician,
+    and meets the basic colony need for such. Along with an environmental engineer
+    and sufficient food and/or exports, this type of expert is required for a colony
+    to be recognized as suitable for general habitation.\n\nAaron is already in transit,
+    and shall arrive in a few days.\n\n-Exploricorp"
+  _subject: Electrical Engineer Arrival

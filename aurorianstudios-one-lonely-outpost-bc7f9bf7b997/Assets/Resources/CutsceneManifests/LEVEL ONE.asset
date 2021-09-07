@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 85b13f51a208de343b7e60550dd298ce, type: 3}
+  m_Name: LEVEL ONE
+  m_EditorClassIdentifier: 
+  _conversationKey: Colony Hub/Level One
+  _checkOn: 1
+  _roomScenePath: Assets/Scenes/Rooms/Colony Outdoors.unity
+  _cutscenePrefab: {fileID: 7804747537371088902, guid: 8e989db8a1cb7bd46ad0cd899b09d350,
+    type: 3}
+  _returnToRoomPath: Assets/Scenes/Rooms/Colony Outdoors.unity
+  _returnToPosition: {x: -14, y: 5.5}
+  _backgroundMusic: {fileID: 8300000, guid: a170798062591b04d915cdca2597cfbb, type: 3}
+  _cutsceneIsRepeatable: 0
+  _luaPlayCondition: '(Variable["ColonyTime"] >= 72) and (Variable["CurrentRoom"]
+    == "Colony Outdoors") and (Actor["Cuckoo_Chuck"].IsUnlocked == true) and (Actor["Jim_Bob"].IsUnlocked
+    == true)  and (Actor["Sally"].IsUnlocked == true) and (Actor["Finnick"].IsUnlocked
+    == true) and (Actor["Sydney"].IsUnlocked == true) and (Actor["Aaron"].IsUnlocked
+    == true) and (Actor["Elisha"].IsUnlocked == true) and (Actor["Dirk"].IsUnlocked
+    == true); '
+  id: 98cdaec5-a6dc-4f64-be9b-120131012db9

@@ -1,0 +1,14 @@
+{
+    "name": "QuestMachineEditor",
+    "references": [
+        "QuestMachine",
+        "PixelCrushers",
+        "PixelCrushersEditor"
+    ],
+    "optionalUnityReferences": [],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false
+}

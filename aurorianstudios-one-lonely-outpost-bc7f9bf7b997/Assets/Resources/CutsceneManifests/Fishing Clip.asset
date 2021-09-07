@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 85b13f51a208de343b7e60550dd298ce, type: 3}
+  m_Name: Fishing Clip
+  m_EditorClassIdentifier: 
+  _conversationKey: E3 Trailer/Fishing Clip
+  _checkOn: 2
+  _roomScenePath: Assets/Scenes/Rooms/Fishing Area/Fishing Area.unity
+  _cutscenePrefab: {fileID: 7804747537371088902, guid: 9c0cbe51fbc28ed4e8c53f2fa60dfd2c,
+    type: 3}
+  _returnToRoomPath: 
+  _returnToPosition: {x: 0, y: 0}
+  _backgroundMusic: {fileID: 0}
+  _cutsceneIsRepeatable: 0
+  _luaCondition: (Variable["ColonyTime"] >= 42) and (Variable["Current_Room"] ~=
+    "Colony Outskirts")
+  id: e824facb-3504-4b04-a7ba-1cb837b76285

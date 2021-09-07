@@ -1,0 +1,499 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4698667263108390409
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 157676173186784123}
+  - component: {fileID: 949285173853055788}
+  - component: {fileID: 671100959434355734}
+  - component: {fileID: 4470215197812272879}
+  m_Layer: 0
+  m_Name: Crystal Forest Door
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &157676173186784123
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4698667263108390409}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 13.7, y: 22, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 97872837516207062}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &949285173853055788
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4698667263108390409}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0.792366, y: -3.0955982}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 4.4903107, y: 7.5258293}
+  m_EdgeRadius: 0
+--- !u!114 &671100959434355734
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4698667263108390409}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 657482a0a873b1f4d99f1ee5f73f83ac, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ActivateOnCollision: 1
+  ActivateOnTriggerEnter: 1
+  InteractedWith:
+    m_PersistentCalls:
+      m_Calls: []
+--- !u!114 &4470215197812272879
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4698667263108390409}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 895f2413fe377e24b8241ad1b274213b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TargetRoomPath: Assets/Scenes/Crystal Forest.unity
+  PlayerPosition: {x: 35, y: 9.6}
+  audioClip: {fileID: 0}
+  volume: 1
+--- !u!1 &6395165992331004108
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4182816404086247136}
+  m_Layer: 0
+  m_Name: OutskirtsConfig
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4182816404086247136
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6395165992331004108}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -82.96206, y: -25.597584, z: -633.64}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 97872837516207062}
+  - {fileID: 5059036016272207496}
+  - {fileID: 5861048748622049625}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &8008050082990416393
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 9199430511845316622}
+  - component: {fileID: 3407535979479232033}
+  - component: {fileID: 5201740996848419968}
+  - component: {fileID: 750580082309084689}
+  m_Layer: 0
+  m_Name: Cave Junction Door
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &9199430511845316622
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8008050082990416393}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 136.75, y: 36.09, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 97872837516207062}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &3407535979479232033
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8008050082990416393}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.5600376, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 5.7324944, y: 2}
+  m_EdgeRadius: 0
+--- !u!114 &5201740996848419968
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8008050082990416393}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 657482a0a873b1f4d99f1ee5f73f83ac, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ActivateOnCollision: 1
+  ActivateOnTriggerEnter: 1
+  InteractedWith:
+    m_PersistentCalls:
+      m_Calls: []
+--- !u!114 &750580082309084689
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8008050082990416393}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 895f2413fe377e24b8241ad1b274213b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TargetRoomPath: Assets/Scenes/Rooms/Cave Junction/Cave Junction.unity
+  PlayerPosition: {x: -3.3, y: -3.3}
+  audioClip: {fileID: 0}
+  volume: 1
+--- !u!1 &8536357982392665286
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6675486083878932968}
+  - component: {fileID: 6048531947476319886}
+  - component: {fileID: 75633022441035661}
+  - component: {fileID: 2115517067746924475}
+  m_Layer: 0
+  m_Name: Colony Door
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6675486083878932968
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8536357982392665286}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 146.47, y: -2.01, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 97872837516207062}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &6048531947476319886
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8536357982392665286}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: -0.039313316}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 2, y: 1.4132595}
+  m_EdgeRadius: 0
+--- !u!114 &75633022441035661
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8536357982392665286}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 657482a0a873b1f4d99f1ee5f73f83ac, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ActivateOnCollision: 1
+  ActivateOnTriggerEnter: 1
+  InteractedWith:
+    m_PersistentCalls:
+      m_Calls: []
+--- !u!114 &2115517067746924475
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8536357982392665286}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 895f2413fe377e24b8241ad1b274213b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TargetRoomPath: Assets/Scenes/Rooms/Colony Outdoors.unity
+  PlayerPosition: {x: -14, y: 5}
+  audioClip: {fileID: 0}
+  volume: 1
+--- !u!1 &9162880415441480241
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 97872837516207062}
+  m_Layer: 0
+  m_Name: OutskirtsDoors
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &97872837516207062
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9162880415441480241}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 6675486083878932968}
+  - {fileID: 9199430511845316622}
+  - {fileID: 157676173186784123}
+  m_Father: {fileID: 4182816404086247136}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &1530344314701360337
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 4182816404086247136}
+    m_Modifications:
+    - target: {fileID: 5881883198402533889, guid: 1628f31efcfd9274bb29ae2154f161e9,
+        type: 3}
+      propertyPath: isIndoors
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5983505410930229849, guid: 1628f31efcfd9274bb29ae2154f161e9,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5983505410930229849, guid: 1628f31efcfd9274bb29ae2154f161e9,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 6.810281
+      objectReference: {fileID: 0}
+    - target: {fileID: 5983505410930229849, guid: 1628f31efcfd9274bb29ae2154f161e9,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -4.40932
+      objectReference: {fileID: 0}
+    - target: {fileID: 5983505410930229849, guid: 1628f31efcfd9274bb29ae2154f161e9,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5983505410930229849, guid: 1628f31efcfd9274bb29ae2154f161e9,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5983505410930229849, guid: 1628f31efcfd9274bb29ae2154f161e9,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5983505410930229849, guid: 1628f31efcfd9274bb29ae2154f161e9,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5983505410930229849, guid: 1628f31efcfd9274bb29ae2154f161e9,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5983505410930229849, guid: 1628f31efcfd9274bb29ae2154f161e9,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5983505410930229849, guid: 1628f31efcfd9274bb29ae2154f161e9,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5983505410930229849, guid: 1628f31efcfd9274bb29ae2154f161e9,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6734525414747002895, guid: 1628f31efcfd9274bb29ae2154f161e9,
+        type: 3}
+      propertyPath: m_Name
+      value: RoomSettings
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 1628f31efcfd9274bb29ae2154f161e9, type: 3}
+--- !u!4 &5059036016272207496 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5983505410930229849, guid: 1628f31efcfd9274bb29ae2154f161e9,
+    type: 3}
+  m_PrefabInstance: {fileID: 1530344314701360337}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &2116442399504657912
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 4182816404086247136}
+    m_Modifications:
+    - target: {fileID: 5479119253767560353, guid: 71e91123c80fef14e8a28c00d4d541b1,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5479119253767560353, guid: 71e91123c80fef14e8a28c00d4d541b1,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5479119253767560353, guid: 71e91123c80fef14e8a28c00d4d541b1,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5479119253767560353, guid: 71e91123c80fef14e8a28c00d4d541b1,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5479119253767560353, guid: 71e91123c80fef14e8a28c00d4d541b1,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5479119253767560353, guid: 71e91123c80fef14e8a28c00d4d541b1,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5479119253767560353, guid: 71e91123c80fef14e8a28c00d4d541b1,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5479119253767560353, guid: 71e91123c80fef14e8a28c00d4d541b1,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5479119253767560353, guid: 71e91123c80fef14e8a28c00d4d541b1,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5479119253767560353, guid: 71e91123c80fef14e8a28c00d4d541b1,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5479119253767560353, guid: 71e91123c80fef14e8a28c00d4d541b1,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5479119253767560355, guid: 71e91123c80fef14e8a28c00d4d541b1,
+        type: 3}
+      propertyPath: m_Name
+      value: SceneMusicTrigger
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 71e91123c80fef14e8a28c00d4d541b1, type: 3}
+--- !u!4 &5861048748622049625 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5479119253767560353, guid: 71e91123c80fef14e8a28c00d4d541b1,
+    type: 3}
+  m_PrefabInstance: {fileID: 2116442399504657912}
+  m_PrefabAsset: {fileID: 0}

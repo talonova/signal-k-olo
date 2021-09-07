@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 85b13f51a208de343b7e60550dd298ce, type: 3}
+  m_Name: Hello, Gorgeous
+  m_EditorClassIdentifier: 
+  _conversationKey: Linny/Hello, Gorgeous!
+  _checkOn: 0
+  _roomScenePath: Assets/Scenes/Rooms/Colony Outskirts.unity
+  _cutscenePrefab: {fileID: 7804747537371088902, guid: f898c3fcb28f6fa42ad7acdc5f5b0b07,
+    type: 3}
+  _returnToRoomPath: Assets/Scenes/Rooms/Colony Outskirts.unity
+  _returnToPosition: {x: 53.5, y: 5.5}
+  _backgroundMusic: {fileID: 0}
+  _cutsceneIsRepeatable: 0
+  _luaCondition: (Variable["CurrentRoom"] == "Colony Outskirts")
+  id: 128e2751-25ef-4e81-b41a-24c0a10757b9

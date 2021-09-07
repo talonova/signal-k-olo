@@ -1,0 +1,152 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!60 &6693466432153689403
+PolygonCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4510963193621017212}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1, y: 1}
+    newSize: {x: 0.96875, y: 0.625}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: 0.26932302, y: 0.119635954}
+      - {x: -0.2059291, y: 0.11045188}
+      - {x: -0.33552107, y: -0.0026821047}
+      - {x: -0.33549702, y: -0.2516436}
+      - {x: -0.04163289, y: -0.3125}
+      - {x: 0.327231, y: -0.26198792}
+      - {x: 0.447639, y: -0.200382}
+      - {x: 0.5084226, y: -0.08335286}
+      - {x: 0.4614148, y: 0.105738014}
+--- !u!1001 &4512493391302023638
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1602860747762602, guid: bbbb09f2c1aaa1f4695b49849e2866a8, type: 3}
+      propertyPath: m_Name
+      value: GreyRock1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4551054963535950, guid: bbbb09f2c1aaa1f4695b49849e2866a8, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.069
+      objectReference: {fileID: 0}
+    - target: {fileID: 4551054963535950, guid: bbbb09f2c1aaa1f4695b49849e2866a8, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.073
+      objectReference: {fileID: 0}
+    - target: {fileID: 4551054963535950, guid: bbbb09f2c1aaa1f4695b49849e2866a8, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4551054963535950, guid: bbbb09f2c1aaa1f4695b49849e2866a8, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4551054963535950, guid: bbbb09f2c1aaa1f4695b49849e2866a8, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4551054963535950, guid: bbbb09f2c1aaa1f4695b49849e2866a8, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4551054963535950, guid: bbbb09f2c1aaa1f4695b49849e2866a8, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4551054963535950, guid: bbbb09f2c1aaa1f4695b49849e2866a8, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4551054963535950, guid: bbbb09f2c1aaa1f4695b49849e2866a8, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4551054963535950, guid: bbbb09f2c1aaa1f4695b49849e2866a8, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4551054963535950, guid: bbbb09f2c1aaa1f4695b49849e2866a8, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 212336033810187910, guid: bbbb09f2c1aaa1f4695b49849e2866a8,
+        type: 3}
+      propertyPath: m_SortingOrder
+      value: 14998
+      objectReference: {fileID: 0}
+    - target: {fileID: 212336033810187910, guid: bbbb09f2c1aaa1f4695b49849e2866a8,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 7818030956666215868, guid: 7c53c18086a46b0488667a198ab5fb96,
+        type: 3}
+    - target: {fileID: 212336033810187910, guid: bbbb09f2c1aaa1f4695b49849e2866a8,
+        type: 3}
+      propertyPath: m_Size.x
+      value: 0.96875
+      objectReference: {fileID: 0}
+    - target: {fileID: 212336033810187910, guid: bbbb09f2c1aaa1f4695b49849e2866a8,
+        type: 3}
+      propertyPath: m_Size.y
+      value: 0.625
+      objectReference: {fileID: 0}
+    - target: {fileID: 212336033810187910, guid: bbbb09f2c1aaa1f4695b49849e2866a8,
+        type: 3}
+      propertyPath: m_WasSpriteAssigned
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 746695444108290729, guid: bbbb09f2c1aaa1f4695b49849e2866a8,
+        type: 3}
+      propertyPath: _sortOrderOffset
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2172209007987301591, guid: bbbb09f2c1aaa1f4695b49849e2866a8,
+        type: 3}
+      propertyPath: MinableDefinition
+      value: 
+      objectReference: {fileID: 11400000, guid: e6c0c06e46f02d74e932c8a7b7137406,
+        type: 2}
+    - target: {fileID: 2172209007987301591, guid: bbbb09f2c1aaa1f4695b49849e2866a8,
+        type: 3}
+      propertyPath: _prefabName
+      value: GreyRock1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2172209007987301591, guid: bbbb09f2c1aaa1f4695b49849e2866a8,
+        type: 3}
+      propertyPath: _minableDefinition
+      value: 
+      objectReference: {fileID: 11400000, guid: e6c0c06e46f02d74e932c8a7b7137406,
+        type: 2}
+    - target: {fileID: 7072391676629625055, guid: bbbb09f2c1aaa1f4695b49849e2866a8,
+        type: 3}
+      propertyPath: _prefabName
+      value: GreyRock1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: bbbb09f2c1aaa1f4695b49849e2866a8, type: 3}
+--- !u!1 &4510963193621017212 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1602860747762602, guid: bbbb09f2c1aaa1f4695b49849e2866a8,
+    type: 3}
+  m_PrefabInstance: {fileID: 4512493391302023638}
+  m_PrefabAsset: {fileID: 0}

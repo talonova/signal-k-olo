@@ -1,0 +1,190 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8290644824735011886
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7736740137948537110}
+  m_Layer: 0
+  m_Name: ColonyOutdoorsFlowerFestivalDecor
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7736740137948537110
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8290644824735011886}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -5.240116, y: 5.9379125, z: -28.628906}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 8864525833342847128}
+  - {fileID: 5104366525959583989}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &4580026446767835450
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 7736740137948537110}
+    m_Modifications:
+    - target: {fileID: 438419410730758098, guid: 9d06acbbbf4576a4c95e59ca587f4f8f,
+        type: 3}
+      propertyPath: m_Name
+      value: WeatherChanger
+      objectReference: {fileID: 0}
+    - target: {fileID: 4653365244585973401, guid: 9d06acbbbf4576a4c95e59ca587f4f8f,
+        type: 3}
+      propertyPath: weatherType
+      value: 
+      objectReference: {fileID: 11400000, guid: 3312bc9145803124e8cd63cafcb81b33,
+        type: 2}
+    - target: {fileID: 4938929880265998754, guid: 9d06acbbbf4576a4c95e59ca587f4f8f,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4938929880265998754, guid: 9d06acbbbf4576a4c95e59ca587f4f8f,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4938929880265998754, guid: 9d06acbbbf4576a4c95e59ca587f4f8f,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4938929880265998754, guid: 9d06acbbbf4576a4c95e59ca587f4f8f,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4938929880265998754, guid: 9d06acbbbf4576a4c95e59ca587f4f8f,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4938929880265998754, guid: 9d06acbbbf4576a4c95e59ca587f4f8f,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4938929880265998754, guid: 9d06acbbbf4576a4c95e59ca587f4f8f,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4938929880265998754, guid: 9d06acbbbf4576a4c95e59ca587f4f8f,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4938929880265998754, guid: 9d06acbbbf4576a4c95e59ca587f4f8f,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4938929880265998754, guid: 9d06acbbbf4576a4c95e59ca587f4f8f,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4938929880265998754, guid: 9d06acbbbf4576a4c95e59ca587f4f8f,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 9d06acbbbf4576a4c95e59ca587f4f8f, type: 3}
+--- !u!4 &8864525833342847128 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4938929880265998754, guid: 9d06acbbbf4576a4c95e59ca587f4f8f,
+    type: 3}
+  m_PrefabInstance: {fileID: 4580026446767835450}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &5818455587959125110
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 7736740137948537110}
+    m_Modifications:
+    - target: {fileID: 1614844791462792323, guid: 14ef3ae73d8426249a70623fddd972d7,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1614844791462792323, guid: 14ef3ae73d8426249a70623fddd972d7,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 21.365158
+      objectReference: {fileID: 0}
+    - target: {fileID: 1614844791462792323, guid: 14ef3ae73d8426249a70623fddd972d7,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 7.96404
+      objectReference: {fileID: 0}
+    - target: {fileID: 1614844791462792323, guid: 14ef3ae73d8426249a70623fddd972d7,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 59.36418
+      objectReference: {fileID: 0}
+    - target: {fileID: 1614844791462792323, guid: 14ef3ae73d8426249a70623fddd972d7,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1614844791462792323, guid: 14ef3ae73d8426249a70623fddd972d7,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1614844791462792323, guid: 14ef3ae73d8426249a70623fddd972d7,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1614844791462792323, guid: 14ef3ae73d8426249a70623fddd972d7,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1614844791462792323, guid: 14ef3ae73d8426249a70623fddd972d7,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1614844791462792323, guid: 14ef3ae73d8426249a70623fddd972d7,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1614844791462792323, guid: 14ef3ae73d8426249a70623fddd972d7,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2632703720472175439, guid: 14ef3ae73d8426249a70623fddd972d7,
+        type: 3}
+      propertyPath: m_Name
+      value: TownFlowerFestivalProps
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 14ef3ae73d8426249a70623fddd972d7, type: 3}
+--- !u!4 &5104366525959583989 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1614844791462792323, guid: 14ef3ae73d8426249a70623fddd972d7,
+    type: 3}
+  m_PrefabInstance: {fileID: 5818455587959125110}
+  m_PrefabAsset: {fileID: 0}

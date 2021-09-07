@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 564b307e494b0d9418d691083e4e74ee, type: 3}
+  m_Name: Dirk Intro Email
+  m_EditorClassIdentifier: 
+  _from: '[GOVT]'
+  _content: "Greetings, [username error]!\r\n\r\nAs per legal code 78398.1982 governing
+    the establishment of new colonies, a certified veterinarian is being sent to
+    [planet name error] in order to ensure the health and growth of your planet\u2019s
+    animal population. Congratulations are in order, as this is one of your major
+    first steps in expanding your colony! Biography follows.\r\n\r\nDirk Hawker is
+    a certified colony veterinarian, with a Bachelor\u2019s of Science in Biology
+    followed by a Doctorate in Veterinary Science (DVM). He also holds three colony
+    veterinary certifications. Interests include [database retrieval error]. \r\n\r\nThank
+    you for your cooperation.\r\n\r\nSincerely,\r\nThe United Governing Council of
+    Interstellar Government. \r\n"
+  _subject: Veterinarian

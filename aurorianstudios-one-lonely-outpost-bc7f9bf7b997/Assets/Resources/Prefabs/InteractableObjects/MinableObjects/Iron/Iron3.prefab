@@ -1,0 +1,117 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &1655198685263813566
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 3223486814041227386, guid: 0632f69c6f3bbd34e8d8f0a96baed85d,
+        type: 3}
+      propertyPath: _prefabName
+      value: Iron3
+      objectReference: {fileID: 0}
+    - target: {fileID: 4955865470463853068, guid: 0632f69c6f3bbd34e8d8f0a96baed85d,
+        type: 3}
+      propertyPath: _sortOrderOffset
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5505739127768804899, guid: 0632f69c6f3bbd34e8d8f0a96baed85d,
+        type: 3}
+      propertyPath: m_SortingOrder
+      value: 15077
+      objectReference: {fileID: 0}
+    - target: {fileID: 5505739127768804899, guid: 0632f69c6f3bbd34e8d8f0a96baed85d,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300084, guid: af8619db295d3b7419cb0ebdf595c7de,
+        type: 3}
+    - target: {fileID: 5659377416402966763, guid: 0632f69c6f3bbd34e8d8f0a96baed85d,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 3.3483894
+      objectReference: {fileID: 0}
+    - target: {fileID: 5659377416402966763, guid: 0632f69c6f3bbd34e8d8f0a96baed85d,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -1.5345006
+      objectReference: {fileID: 0}
+    - target: {fileID: 5659377416402966763, guid: 0632f69c6f3bbd34e8d8f0a96baed85d,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5659377416402966763, guid: 0632f69c6f3bbd34e8d8f0a96baed85d,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5659377416402966763, guid: 0632f69c6f3bbd34e8d8f0a96baed85d,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5659377416402966763, guid: 0632f69c6f3bbd34e8d8f0a96baed85d,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5659377416402966763, guid: 0632f69c6f3bbd34e8d8f0a96baed85d,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5659377416402966763, guid: 0632f69c6f3bbd34e8d8f0a96baed85d,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5659377416402966763, guid: 0632f69c6f3bbd34e8d8f0a96baed85d,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5659377416402966763, guid: 0632f69c6f3bbd34e8d8f0a96baed85d,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5659377416402966763, guid: 0632f69c6f3bbd34e8d8f0a96baed85d,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5665457020239332111, guid: 0632f69c6f3bbd34e8d8f0a96baed85d,
+        type: 3}
+      propertyPath: m_Name
+      value: Iron3
+      objectReference: {fileID: 0}
+    - target: {fileID: 5818424747416482930, guid: 0632f69c6f3bbd34e8d8f0a96baed85d,
+        type: 3}
+      propertyPath: _prefabName
+      value: Iron3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6572072264093585891, guid: 0632f69c6f3bbd34e8d8f0a96baed85d,
+        type: 3}
+      propertyPath: m_Offset.x
+      value: 0.0026137042
+      objectReference: {fileID: 0}
+    - target: {fileID: 6572072264093585891, guid: 0632f69c6f3bbd34e8d8f0a96baed85d,
+        type: 3}
+      propertyPath: m_Size.x
+      value: 0.8236561
+      objectReference: {fileID: 0}
+    - target: {fileID: 6572072264093585891, guid: 0632f69c6f3bbd34e8d8f0a96baed85d,
+        type: 3}
+      propertyPath: m_Size.y
+      value: 0.43150482
+      objectReference: {fileID: 0}
+    - target: {fileID: 6572072264093585891, guid: 0632f69c6f3bbd34e8d8f0a96baed85d,
+        type: 3}
+      propertyPath: m_Offset.y
+      value: -0.16354483
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 0632f69c6f3bbd34e8d8f0a96baed85d, type: 3}

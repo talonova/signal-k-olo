@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 564b307e494b0d9418d691083e4e74ee, type: 3}
+  m_Name: Sally Baseline Email
+  m_EditorClassIdentifier: 
+  _from: Sally
+  _content: "Hello, [player name]!\r\n\r\nI\u2019m sorry we got off to a bit of a
+    rough start, but I need to start taking psychological baselines for the colony
+    and was wondering if we could meet up near your farm to complete it. \r\n\r\nThanks!\r"
+  _subject: Baseline

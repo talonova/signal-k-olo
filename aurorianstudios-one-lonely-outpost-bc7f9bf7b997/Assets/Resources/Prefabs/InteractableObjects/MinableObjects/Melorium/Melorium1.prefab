@@ -1,0 +1,143 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!60 &4969702101772465621
+PolygonCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3185070925481154762}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.6875, y: 1}
+    newSize: {x: 0.3125, y: 0.4375}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: -0.3542479, y: -0.30024144}
+      - {x: -0.22660837, y: -0.13341479}
+      - {x: 0.22789666, y: -0.13055535}
+      - {x: 0.34055203, y: -0.29779667}
+      - {x: 0.023454688, y: -0.4909109}
+      - {x: -0.054678597, y: -0.4910801}
+--- !u!1001 &3185756784631755616
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1602860747762602, guid: bbbb09f2c1aaa1f4695b49849e2866a8, type: 3}
+      propertyPath: m_Name
+      value: Melorium1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4551054963535950, guid: bbbb09f2c1aaa1f4695b49849e2866a8, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4551054963535950, guid: bbbb09f2c1aaa1f4695b49849e2866a8, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4551054963535950, guid: bbbb09f2c1aaa1f4695b49849e2866a8, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4551054963535950, guid: bbbb09f2c1aaa1f4695b49849e2866a8, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4551054963535950, guid: bbbb09f2c1aaa1f4695b49849e2866a8, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4551054963535950, guid: bbbb09f2c1aaa1f4695b49849e2866a8, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4551054963535950, guid: bbbb09f2c1aaa1f4695b49849e2866a8, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4551054963535950, guid: bbbb09f2c1aaa1f4695b49849e2866a8, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4551054963535950, guid: bbbb09f2c1aaa1f4695b49849e2866a8, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4551054963535950, guid: bbbb09f2c1aaa1f4695b49849e2866a8, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4551054963535950, guid: bbbb09f2c1aaa1f4695b49849e2866a8, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 212336033810187910, guid: bbbb09f2c1aaa1f4695b49849e2866a8,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300030, guid: af8619db295d3b7419cb0ebdf595c7de,
+        type: 3}
+    - target: {fileID: 212336033810187910, guid: bbbb09f2c1aaa1f4695b49849e2866a8,
+        type: 3}
+      propertyPath: m_Size.x
+      value: 0.3125
+      objectReference: {fileID: 0}
+    - target: {fileID: 212336033810187910, guid: bbbb09f2c1aaa1f4695b49849e2866a8,
+        type: 3}
+      propertyPath: m_Size.y
+      value: 0.4375
+      objectReference: {fileID: 0}
+    - target: {fileID: 212336033810187910, guid: bbbb09f2c1aaa1f4695b49849e2866a8,
+        type: 3}
+      propertyPath: m_WasSpriteAssigned
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 212336033810187910, guid: bbbb09f2c1aaa1f4695b49849e2866a8,
+        type: 3}
+      propertyPath: m_SortingOrder
+      value: 15000
+      objectReference: {fileID: 0}
+    - target: {fileID: 746695444108290729, guid: bbbb09f2c1aaa1f4695b49849e2866a8,
+        type: 3}
+      propertyPath: _sortOrderOffset
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 2172209007987301591, guid: bbbb09f2c1aaa1f4695b49849e2866a8,
+        type: 3}
+      propertyPath: _minableDefinition
+      value: 
+      objectReference: {fileID: 11400000, guid: 24f1e8f98451b7c488157b7279e019c6,
+        type: 2}
+    - target: {fileID: 2172209007987301591, guid: bbbb09f2c1aaa1f4695b49849e2866a8,
+        type: 3}
+      propertyPath: _prefabName
+      value: Melorium1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7072391676629625055, guid: bbbb09f2c1aaa1f4695b49849e2866a8,
+        type: 3}
+      propertyPath: _prefabName
+      value: Melorium1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: bbbb09f2c1aaa1f4695b49849e2866a8, type: 3}
+--- !u!1 &3185070925481154762 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1602860747762602, guid: bbbb09f2c1aaa1f4695b49849e2866a8,
+    type: 3}
+  m_PrefabInstance: {fileID: 3185756784631755616}
+  m_PrefabAsset: {fileID: 0}

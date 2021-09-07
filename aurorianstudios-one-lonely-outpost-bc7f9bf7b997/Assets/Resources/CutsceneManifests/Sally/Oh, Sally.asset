@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 85b13f51a208de343b7e60550dd298ce, type: 3}
+  m_Name: Oh, Sally
+  m_EditorClassIdentifier: 
+  _conversationKey: Sally/Oh, Sally
+  _checkOn: 2
+  _roomScenePath: Assets/Scenes/Rooms/Colony Outdoors.unity
+  _cutscenePrefab: {fileID: 7804913788602150290, guid: 889a64bcd306e934cb30c9edb6b6ad72,
+    type: 3}
+  _returnToRoomPath: Assets/Scenes/Rooms/Colony Outdoors.unity
+  _returnToPosition: {x: -14, y: 5.5}
+  _backgroundMusic: {fileID: 8300000, guid: 801acc426af6f714eba4b0cac5272453, type: 3}
+  _cutsceneIsRepeatable: 0
+  _luaPlayCondition: (Variable["CurrentRoom"] == "Colony Outdoors")
+  id: d97b4211-bd48-47b8-b165-3eb13e378d6c

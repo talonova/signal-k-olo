@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4304552d0e00e17419c31547752979a8, type: 3}
+  m_Name: Dirk Intro Email
+  m_EditorClassIdentifier: 
+  id: 4a409061-c68f-40af-9e4f-c032722c78ab
+  _luaUnlockCondition: Actor["Finnick"].IsUnlocked == true
+  _isRepeatable: 0
+  _email: {fileID: 11400000, guid: 94cd2c7ea583a7c46b9a526f1faf261f, type: 2}

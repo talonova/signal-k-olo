@@ -1,0 +1,10 @@
+{
+    "name": "QuestMachine",
+    "references": [
+        "PixelCrushers"
+    ],
+    "optionalUnityReferences": [],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false
+}

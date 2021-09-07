@@ -1,0 +1,103 @@
+version: 2
+importPivots: 1
+tpsheetFileNames:
+- Assets/codeandweb.com/Example/SpriteSheet/sprites.tpsheet
+- Assets/Resources/codeandweb.com/Example/SpriteSheet/sprites.tpsheet
+- Assets/Sprites and Animations/Animals/AnimalSheet0.tpsheet
+- Assets/Sprites and Animations/Animals/BeamAnimations/ChickenBeamSheet0.tpsheet
+- Assets/Sprites and Animations/Animals/BeamAnimations/SheepBeamSheet0.tpsheet
+- Assets/Sprites and Animations/Animated Particle FX/AnimatedParticleFXSheet0.tpsheet
+- Assets/Sprites and Animations/Colonist/HandOfferSpriteSheet.tpsheet
+- Assets/Sprites and Animations/Colonist/HarvestingSpriteSheet.tpsheet
+- Assets/Sprites and Animations/Colonist/OmniToolSheet.tpsheet
+- Assets/Sprites and Animations/Colonist/PlayerCombatSpriteSheet0.tpsheet
+- Assets/Sprites and Animations/Colonist/PlayerSpriteSheet.tpsheet
+- Assets/Sprites and Animations/Colonist/ThrowSpriteSheet.tpsheet
+- Assets/Sprites and Animations/Colonist/Walk/ColonistWalkSpritesheet.tpsheet
+- Assets/Sprites and Animations/Colonist/Walk/Diagonals.tpsheet
+- Assets/Sprites and Animations/Crops/CropsSheet.tpsheet
+- Assets/Sprites and Animations/E3/Enemies/EnemySheet0.tpsheet
+- Assets/Sprites and Animations/Festivals/Christmas/ChristmasDecorationsSheet.tpsheet
+- Assets/Sprites and Animations/Furniture/CommunityCenterInteriorSheet.tpsheet
+- Assets/Sprites and Animations/Furniture/TablesSheet.tpsheet
+- Assets/Sprites and Animations/Landers/Lander's Smoke/Lander's Smoke.tpsheet
+- Assets/Sprites and Animations/Landers/Thrusters/Sally'sThrusters.tpsheet
+- Assets/Sprites and Animations/Misc Objects/StorageChest.tpsheet
+- Assets/Sprites and Animations/NPCs/Aaron/AaronSheet.tpsheet
+- Assets/Sprites and Animations/NPCs/CharacterSheet0.tpsheet
+- Assets/Sprites and Animations/PlacableMachines/Sprinkler1/SprinklerSheet.tpsheet
+- Assets/Sprites and Animations/StructuresAtlas.tpsheet
+- Assets/Sprites and Animations/TerrainObjects/TerrainSheet.tpsheet
+- Assets/Sprites and Animations/UI/SelectionIndicator/SelectionIndicator.tpsheet
+- Assets/Sprites and Animations/UI/UITextures.tpsheet
+textureFileNames:
+- Assets/codeandweb.com/Example/SpriteSheet/sprites.png
+- Assets/Resources/codeandweb.com/Example/SpriteSheet/sprites.png
+- Assets/Sprites and Animations/Animals/AnimalSheet0.png
+- Assets/Sprites and Animations/Animals/BeamAnimations/ChickenBeamSheet0.png
+- Assets/Sprites and Animations/Animals/BeamAnimations/SheepBeamSheet0.png
+- Assets/Sprites and Animations/Animated Particle FX/AnimatedParticleFXSheet0.png
+- Assets/Sprites and Animations/Colonist/HandOfferSpriteSheet.png
+- Assets/Sprites and Animations/Colonist/HarvestingSpriteSheet.png
+- Assets/Sprites and Animations/Colonist/OmniToolSheet.png
+- Assets/Sprites and Animations/Colonist/PlayerCombatSpriteSheet0.png
+- Assets/Sprites and Animations/Colonist/PlayerSpriteSheet.png
+- Assets/Sprites and Animations/Colonist/ThrowSpriteSheet.png
+- Assets/Sprites and Animations/Colonist/Walk/ColonistWalkSpritesheet.png
+- Assets/Sprites and Animations/Colonist/Walk/Diagonals.png
+- Assets/Sprites and Animations/Crops/CropsSheet.png
+- Assets/Sprites and Animations/E3/Enemies/EnemySheet0.png
+- Assets/Sprites and Animations/Festivals/Christmas/ChristmasDecorationsSheet.png
+- Assets/Sprites and Animations/Furniture/CommunityCenterInteriorSheet.png
+- Assets/Sprites and Animations/Furniture/TablesSheet.png
+- Assets/Sprites and Animations/Landers/Lander's Smoke/Lander's Smoke.png
+- Assets/Sprites and Animations/Landers/Thrusters/Sally'sThrusters.png
+- Assets/Sprites and Animations/Misc Objects/StorageChest.png
+- Assets/Sprites and Animations/NPCs/Aaron/AaronSheet.png
+- Assets/Sprites and Animations/NPCs/CharacterSheet0.png
+- Assets/Sprites and Animations/PlacableMachines/Sprinkler1/SprinklerSheet.png
+- Assets/Sprites and Animations/StructuresAtlas.png
+- Assets/Sprites and Animations/TerrainObjects/TerrainSheet.png
+- Assets/Sprites and Animations/UI/SelectionIndicator/SelectionIndicator.png
+- Assets/Sprites and Animations/UI/UITextures.png
+- Assets/Sprites and Animations/Animals/AnimalSheet0.png
+- Assets/Sprites and Animations/Animated Particle FX/AnimatedParticleFXSheet0.png
+- Assets/Sprites and Animations/Landers/Aaron'sLandingAnimationSheet0.png
+- Assets/Sprites and Animations/Colonist/PlayerCombatSpriteSheet0.png
+- Assets/Sprites and Animations/Animals/BeamAnimations/SheepBeamSheet0.png
+- Assets/Sprites and Animations/Animals/BeamAnimations/ChickenBeamSheet0.png
+- Assets/Sprites and Animations/E3/Enemies/EnemySheet0.png
+normalmapFileNames:
+- Assets/codeandweb.com/Example/SpriteSheet/sprites_n.png
+- Assets/Resources/codeandweb.com/Example/SpriteSheet/sprites_n.png
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+enableDebugOutput: 0

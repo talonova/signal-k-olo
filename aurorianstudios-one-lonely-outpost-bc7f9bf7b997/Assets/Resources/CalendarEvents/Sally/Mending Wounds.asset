@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d9306d20d102fb34e8096d995fdd42cb, type: 3}
+  m_Name: Mending Wounds
+  m_EditorClassIdentifier: 
+  id: 6348fedf-11f7-472a-89d3-e1fcaa4af10c
+  _luaUnlockCondition: (Actor["Sally"].NeedsAnApology == true)
+  _isRepeatable: 1
+  _instance: 0
+  _cutsceneManifest: {fileID: 11400000, guid: 32d5ff6d980af0f4b8c30f4f058ccef0, type: 2}
+  _luaPlayCondition: Variable["CurrentRoom"] == "Colony Outdoors"

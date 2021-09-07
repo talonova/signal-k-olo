@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1f9839ff07fc3994aa17c3c6b5ecfd28, type: 3}
+  m_Name: Upgrade Tool
+  m_EditorClassIdentifier: 
+  m_languageKeys:
+  - Default
+  m_languageValues: 00000000
+  m_fieldKeys: 01000000020000000300000004000000
+  m_fieldValues:
+  - m_fieldName: Quest Name
+    m_keys: 00000000
+    m_values:
+    - Upgrade Tool
+  - m_fieldName: Quest Description
+    m_keys: 00000000
+    m_values:
+    - Upgrade Tool
+  - m_fieldName: Condition Hud 1
+    m_keys: 00000000
+    m_values:
+    - '{#upgrade}/2 upgrades'
+  - m_fieldName: Done
+    m_keys: 00000000
+    m_values:
+    - Completed
+  m_nextLanguageID: 1
+  m_nextFieldID: 5

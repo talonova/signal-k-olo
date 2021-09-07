@@ -1,0 +1,139 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2035149543487006059
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2035149543487003329}
+  - component: {fileID: 2035149543486997407}
+  m_Layer: 0
+  m_Name: WeatherFX
+  m_TagString: Weather
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2035149543487003329
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2035149543487006059}
+  m_LocalRotation: {x: -0.0008726012, y: 0, z: -0, w: 0.99999964}
+  m_LocalPosition: {x: 0, y: 0.0017452018, z: -9}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 3577816760749205546}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2035149543486997407
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2035149543487006059}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 874edc28e7e9fb64c9b7e7a6b0ea8506, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cloudPlaneController: {fileID: 3577816760749214755}
+--- !u!1001 &3577816760749197625
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 2035149543487003329}
+    m_Modifications:
+    - target: {fileID: 5482230475181676523, guid: 289ab825d7d7e95498054602bb553fc8,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5482230475181676523, guid: 289ab825d7d7e95498054602bb553fc8,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5482230475181676523, guid: 289ab825d7d7e95498054602bb553fc8,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 99
+      objectReference: {fileID: 0}
+    - target: {fileID: 5482230475181676523, guid: 289ab825d7d7e95498054602bb553fc8,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5482230475181676523, guid: 289ab825d7d7e95498054602bb553fc8,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5482230475181676523, guid: 289ab825d7d7e95498054602bb553fc8,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5482230475181676523, guid: 289ab825d7d7e95498054602bb553fc8,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5482230475181676523, guid: 289ab825d7d7e95498054602bb553fc8,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5482230475181676523, guid: 289ab825d7d7e95498054602bb553fc8,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5482230475181676523, guid: 289ab825d7d7e95498054602bb553fc8,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5482230475181676523, guid: 289ab825d7d7e95498054602bb553fc8,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5482230475181676523, guid: 289ab825d7d7e95498054602bb553fc8,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 800.0001
+      objectReference: {fileID: 0}
+    - target: {fileID: 5482230475181676526, guid: 289ab825d7d7e95498054602bb553fc8,
+        type: 3}
+      propertyPath: m_Name
+      value: CloudPlane
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 289ab825d7d7e95498054602bb553fc8, type: 3}
+--- !u!4 &3577816760749205546 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5482230475181676523, guid: 289ab825d7d7e95498054602bb553fc8,
+    type: 3}
+  m_PrefabInstance: {fileID: 3577816760749197625}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &3577816760749214755 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 4278968596751228591, guid: 289ab825d7d7e95498054602bb553fc8,
+    type: 3}
+  m_PrefabInstance: {fileID: 3577816760749197625}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3056635f7ddb2fe4085e58eeca0c9f62, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

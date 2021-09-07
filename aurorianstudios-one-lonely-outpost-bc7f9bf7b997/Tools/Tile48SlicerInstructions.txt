@@ -1,0 +1,3 @@
+Using command prompt, provide the source file full path and the destination path, i.e. C:\Tiles\SourceTiles\SourceTileset.png C:\Tiles\OutputTiles\OutputTile
+
+The resulting files in the above example would be in the OutputTiles folder, named OutputTile_0, OutputTile_1, etc.

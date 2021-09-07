@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 55f826b9eae266f4c964378884aaffd2, type: 3}
+  m_Name: Proto
+  m_EditorClassIdentifier: 
+  alternating: 1
+  terminalGrowthPreferenceMultiplier: 50
+  terminalLeafSet: {fileID: 11400000, guid: dcb5d8f6b99490c44930965f0aac852b, type: 2}
+  axialLeafSet: {fileID: 11400000, guid: f1f7679803bd80c46808b1083bda43b9, type: 2}
+  stemColors:
+  - serializedVersion: 2
+    rgba: 4282768742
+  - serializedVersion: 2
+    rgba: 4283084629
+  - serializedVersion: 2
+    rgba: 4282480429
+  stemOutlineColor:
+    serializedVersion: 2
+    rgba: 4282465325

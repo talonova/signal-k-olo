@@ -1,0 +1,65 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Main Menu.unity
+    guid: 7a2242006c02fd34fb40fed621ea7752
+  - enabled: 1
+    path: Assets/Scenes/Game Scene.unity
+    guid: 53d8377f75b94544dbcea6aa9b6c565f
+  - enabled: 1
+    path: Assets/Scenes/Cutscene Scene.unity
+    guid: 4b79a1eabdb55754fae6f74995f7e550
+  - enabled: 1
+    path: Assets/Scenes/Rooms/Farm Homestead.unity
+    guid: 8307dfc3aa5a7a64c90ee487596cb6fb
+  - enabled: 1
+    path: Assets/Scenes/Rooms/Lander Internal.unity
+    guid: 91538f1983d89eb4a9f1129539c064ed
+  - enabled: 1
+    path: Assets/Scenes/Rooms/Colony Outdoors.unity
+    guid: 51cb212dd69983a4d8b6e2af10a7d03a
+  - enabled: 1
+    path: Assets/Scenes/Rooms/Interiors/Sally Lander Internal.unity
+    guid: f1996c5bec93cdc4cb4b384b86ab1576
+  - enabled: 1
+    path: Assets/Scenes/Rooms/Colony Outskirts.unity
+    guid: 960855cabef29f440bddc6fd7fd15312
+  - enabled: 1
+    path: Assets/Scenes/Overnight Report.unity
+    guid: 87abb727c96ae144ca63667eb536dfa7
+  - enabled: 1
+    path: Assets/Scenes/Rooms/CommunityCenter/CommunityCenter.unity
+    guid: fb2aa5fd2c22056459d07995d55c6827
+  - enabled: 1
+    path: Assets/Scenes/Rooms/Cave Junction/Cave Junction.unity
+    guid: 6591b3cea68f39b42b336e8ddec92655
+  - enabled: 1
+    path: Assets/Scenes/Rooms/Interiors/Aaron Lander Interior.unity
+    guid: f712b840e71ff7a4ead6494a8e87cf3b
+  - enabled: 1
+    path: Assets/Scenes/Rooms/Interiors/Jim Bob Lander Interior.unity
+    guid: ec4182f0d11cb314eb3e83da646389db
+  - enabled: 1
+    path: Assets/Scenes/Rooms/Interiors/Dirk Lander Internal.unity
+    guid: 9e17bcc4304dbd94baaa8374e6315bd6
+  - enabled: 1
+    path: Assets/Scenes/Rooms/Interiors/Sydney Lander Internal.unity
+    guid: 08bd9b1ce27f758428b3f570506da35a
+  - enabled: 1
+    path: Assets/Scenes/Crystal Forest.unity
+    guid: 3e9511a03a4b6694ea6850dc27750d77
+  - enabled: 1
+    path: Assets/Scenes/Rooms/Fishing Area/Fishing Area.unity
+    guid: 04fb705805bdecc4ab8005eacd862d5b
+  - enabled: 1
+    path: Assets/Scenes/Rooms/Interiors/Finnick Lander Interior.unity
+    guid: 4828f3f81f8070f4ab9b55119edaa44f
+  - enabled: 1
+    path: Assets/Scenes/Rooms/Interiors/Linny House Interior.unity
+    guid: 26e474c22a603db4987d1d6ab521a689
+  m_configObjects: {}

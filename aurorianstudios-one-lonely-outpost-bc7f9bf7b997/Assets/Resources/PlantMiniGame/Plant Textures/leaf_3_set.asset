@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 128c422954f034f4ba6a592032f0405d, type: 3}
+  m_Name: leaf_3_set
+  m_EditorClassIdentifier: 
+  healthy: {fileID: 1419645666516858585, guid: 19f8dd70eaa3e8746a7b5e256088a949, type: 3}
+  diseased: {fileID: -3226907031142326853, guid: 19f8dd70eaa3e8746a7b5e256088a949,
+    type: 3}
+  dead: {fileID: 2342548729326838619, guid: 19f8dd70eaa3e8746a7b5e256088a949, type: 3}
+  pivot: {x: 0.1, y: 0.75}
+  direction: {x: 0, y: 0}

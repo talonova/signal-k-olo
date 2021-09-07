@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1f9839ff07fc3994aa17c3c6b5ecfd28, type: 3}
+  m_Name: Finnick's Feast
+  m_EditorClassIdentifier: 
+  m_languageKeys:
+  - Default
+  m_languageValues: 00000000
+  m_fieldKeys: 01000000020000000600000007000000
+  m_fieldValues:
+  - m_fieldName: Quest Name
+    m_keys: 00000000
+    m_values:
+    - Finnick's Feast
+  - m_fieldName: Quest Description
+    m_keys: 00000000
+    m_values:
+    - Finnick wants to throw weekly potluck feasts. He asked you to help him get
+      started by dropping off some veggies and grains in the box outside his house.
+  - m_fieldName: Condition 1 HUD Heading
+    m_keys: 00000000
+    m_values:
+    - '{#veggies}/5 Veggies Donated'
+  - m_fieldName: Condition 2 HUD Heading
+    m_keys: 00000000
+    m_values:
+    - '{#grains}/5 Grains Donated'
+  m_nextLanguageID: 1
+  m_nextFieldID: 8

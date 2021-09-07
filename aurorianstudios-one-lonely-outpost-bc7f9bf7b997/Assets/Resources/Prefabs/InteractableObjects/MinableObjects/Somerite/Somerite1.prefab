@@ -1,0 +1,150 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!60 &3539967293022416574
+PolygonCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5375724832240361542}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.71875, y: 0.875}
+    newSize: {x: 0.28125, y: 0.4375}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: 0.30765665, y: -0.014519304}
+      - {x: -0.14447652, y: -0.028526962}
+      - {x: -0.36389518, y: -0.26943076}
+      - {x: -0.15144616, y: -0.4465404}
+      - {x: 0.32851624, y: -0.21149036}
+--- !u!1001 &5377254575148387308
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1602860747762602, guid: bbbb09f2c1aaa1f4695b49849e2866a8, type: 3}
+      propertyPath: m_Name
+      value: Somerite1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4551054963535950, guid: bbbb09f2c1aaa1f4695b49849e2866a8, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4551054963535950, guid: bbbb09f2c1aaa1f4695b49849e2866a8, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4551054963535950, guid: bbbb09f2c1aaa1f4695b49849e2866a8, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4551054963535950, guid: bbbb09f2c1aaa1f4695b49849e2866a8, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4551054963535950, guid: bbbb09f2c1aaa1f4695b49849e2866a8, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4551054963535950, guid: bbbb09f2c1aaa1f4695b49849e2866a8, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4551054963535950, guid: bbbb09f2c1aaa1f4695b49849e2866a8, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4551054963535950, guid: bbbb09f2c1aaa1f4695b49849e2866a8, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4551054963535950, guid: bbbb09f2c1aaa1f4695b49849e2866a8, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4551054963535950, guid: bbbb09f2c1aaa1f4695b49849e2866a8, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4551054963535950, guid: bbbb09f2c1aaa1f4695b49849e2866a8, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4551054963535950, guid: bbbb09f2c1aaa1f4695b49849e2866a8, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4551054963535950, guid: bbbb09f2c1aaa1f4695b49849e2866a8, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 212336033810187910, guid: bbbb09f2c1aaa1f4695b49849e2866a8,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300060, guid: af8619db295d3b7419cb0ebdf595c7de,
+        type: 3}
+    - target: {fileID: 212336033810187910, guid: bbbb09f2c1aaa1f4695b49849e2866a8,
+        type: 3}
+      propertyPath: m_Size.x
+      value: 0.28125
+      objectReference: {fileID: 0}
+    - target: {fileID: 212336033810187910, guid: bbbb09f2c1aaa1f4695b49849e2866a8,
+        type: 3}
+      propertyPath: m_Size.y
+      value: 0.4375
+      objectReference: {fileID: 0}
+    - target: {fileID: 212336033810187910, guid: bbbb09f2c1aaa1f4695b49849e2866a8,
+        type: 3}
+      propertyPath: m_WasSpriteAssigned
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 212336033810187910, guid: bbbb09f2c1aaa1f4695b49849e2866a8,
+        type: 3}
+      propertyPath: m_SortingOrder
+      value: 15000
+      objectReference: {fileID: 0}
+    - target: {fileID: 746695444108290729, guid: bbbb09f2c1aaa1f4695b49849e2866a8,
+        type: 3}
+      propertyPath: _sortOrderOffset
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2172209007987301591, guid: bbbb09f2c1aaa1f4695b49849e2866a8,
+        type: 3}
+      propertyPath: _minableDefinition
+      value: 
+      objectReference: {fileID: 11400000, guid: 3c8a3bcab99df284a8b14f836ab00d79,
+        type: 2}
+    - target: {fileID: 2172209007987301591, guid: bbbb09f2c1aaa1f4695b49849e2866a8,
+        type: 3}
+      propertyPath: _prefabName
+      value: Somerite1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7072391676629625055, guid: bbbb09f2c1aaa1f4695b49849e2866a8,
+        type: 3}
+      propertyPath: _prefabName
+      value: Somerite1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: bbbb09f2c1aaa1f4695b49849e2866a8, type: 3}
+--- !u!1 &5375724832240361542 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1602860747762602, guid: bbbb09f2c1aaa1f4695b49849e2866a8,
+    type: 3}
+  m_PrefabInstance: {fileID: 5377254575148387308}
+  m_PrefabAsset: {fileID: 0}

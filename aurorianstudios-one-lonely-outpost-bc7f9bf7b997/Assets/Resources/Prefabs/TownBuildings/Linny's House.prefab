@@ -1,0 +1,372 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6207255960530429207
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5561076401940148813}
+  - component: {fileID: 6986804519043167141}
+  - component: {fileID: 7666185324095694004}
+  - component: {fileID: 3585681904361119607}
+  m_Layer: 0
+  m_Name: Linny's House Door
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5561076401940148813
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6207255960530429207}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 7.31, y: -4.9, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 2219330567880989635}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &6986804519043167141
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6207255960530429207}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0.07449818, y: 0.11277199}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 2.2567463, y: 1.6766472}
+  m_EdgeRadius: 0
+--- !u!114 &7666185324095694004
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6207255960530429207}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 657482a0a873b1f4d99f1ee5f73f83ac, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ActivateOnCollision: 0
+  ActivateOnTriggerEnter: 0
+  InteractedWith:
+    m_PersistentCalls:
+      m_Calls: []
+--- !u!114 &3585681904361119607
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6207255960530429207}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 895f2413fe377e24b8241ad1b274213b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TargetRoomPath: Assets/Scenes/Rooms/Interiors/Finnick Lander Interior.unity
+  PlayerPosition: {x: 2, y: -5}
+  audioClip: {fileID: 0}
+  volume: 1
+--- !u!1 &7455120879329949120
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2219330567880989635}
+  - component: {fileID: 9077657712572691443}
+  - component: {fileID: 3906606279197538917}
+  - component: {fileID: 7063056294884055638}
+  - component: {fileID: -5464980293829890748}
+  - component: {fileID: -8014189422847633350}
+  m_Layer: 0
+  m_Name: Linny's House
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2219330567880989635
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7455120879329949120}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
+  m_Children:
+  - {fileID: 5561076401940148813}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!212 &9077657712572691443
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7455120879329949120}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 16052
+  m_Sprite: {fileID: 21300000, guid: 5f155a44ae0eb0240aa97553249c4da2, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 8.71875, y: 7.375}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
+--- !u!114 &3906606279197538917
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7455120879329949120}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3fc7eb08545cbdc468e40ecd6fceb7c8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _sortOrderOffset: -98
+--- !u!60 &7063056294884055638
+PolygonCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7455120879329949120}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 51.96875, y: 33.96875}
+    newSize: {x: 8.71875, y: 7.375}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: 8.907665, y: -5.31234}
+      - {x: 8.418449, y: -5.444004}
+      - {x: 7.2846107, y: -5.5712585}
+      - {x: 6.1668625, y: -5.5114746}
+      - {x: 5.5606155, y: -5.219658}
+      - {x: 5.0300713, y: -5.306282}
+      - {x: 4.3301315, y: -5.194748}
+      - {x: 3.763504, y: -5.562088}
+      - {x: 2.1198378, y: -4.911209}
+      - {x: 1.5584965, y: -5.4869843}
+      - {x: 0.6905794, y: -5.5574875}
+      - {x: 0.0555439, y: -5.1261406}
+      - {x: -0.16434765, y: -4.6838074}
+      - {x: -0.7355938, y: -4.266796}
+      - {x: -1.0199928, y: -4.730999}
+      - {x: -1.8833199, y: -4.7279243}
+      - {x: -2.1746302, y: -4.419319}
+      - {x: -2.2043962, y: -3.9164658}
+      - {x: -3.8116055, y: -5.168991}
+      - {x: -4.7262087, y: -5.115303}
+      - {x: -4.7768316, y: -2.3651085}
+      - {x: -4.2135, y: -2.3729858}
+      - {x: -4.1575747, y: -2.5302696}
+      - {x: -3.7509212, y: -2.5613785}
+      - {x: -3.480135, y: -2.4402466}
+      - {x: -3.6652112, y: 0.67058945}
+      - {x: -4.416958, y: 1.1186447}
+      - {x: -4.649296, y: 4.113819}
+      - {x: -7.6158485, y: 3.998722}
+      - {x: -6.6209636, y: 2.0051727}
+      - {x: -6.780757, y: 0.7112541}
+      - {x: -7.665938, y: 0.689312}
+      - {x: -7.7384224, y: -0.7954788}
+      - {x: -8.910951, y: -1.9366112}
+      - {x: -14.0448065, y: -1.8899994}
+      - {x: -14.682433, y: -1.4164238}
+      - {x: -15.942464, y: -1.6464348}
+      - {x: -18.224941, y: -0.4553299}
+      - {x: -18.313211, y: 4.2475624}
+      - {x: -9.7287, y: 4.158531}
+      - {x: -9.63328, y: 7.6031456}
+      - {x: 19.847307, y: 7.692425}
+      - {x: 19.345974, y: -2.458931}
+      - {x: 20.384731, y: -2.4497757}
+      - {x: 20.379637, y: -4.2106094}
+      - {x: 19.300714, y: -4.189846}
+      - {x: 18.877054, y: -5.288872}
+      - {x: 18.492573, y: -5.901409}
+      - {x: 17.61513, y: -6.0383186}
+      - {x: 16.8808, y: -5.964058}
+      - {x: 16.412989, y: -5.639805}
+      - {x: 16.332104, y: -5.3377647}
+      - {x: 15.899668, y: -5.1989746}
+      - {x: 15.32126, y: -5.6991386}
+      - {x: 15.304798, y: -6.288994}
+      - {x: 14.441271, y: -6.3083267}
+      - {x: 14.427313, y: -4.884922}
+      - {x: 12.907419, y: -5.151577}
+      - {x: 11.554617, y: -4.6446075}
+      - {x: 9.510771, y: -5.337452}
+    - - {x: 9.086983, y: -12.3474655}
+      - {x: 10.219303, y: -12.303692}
+      - {x: 10.247206, y: -10.093899}
+      - {x: 12.924309, y: -10.0914}
+      - {x: 12.952799, y: -11.212917}
+      - {x: 14.104654, y: -11.222134}
+      - {x: 14.112331, y: -10.11779}
+      - {x: 15.49691, y: -10.16119}
+      - {x: 15.944958, y: -9.84177}
+      - {x: 15.976723, y: -8.415966}
+      - {x: 18.684801, y: -8.397732}
+      - {x: 18.698986, y: -10.340519}
+      - {x: 19.611744, y: -10.280388}
+      - {x: 19.818718, y: -8.563488}
+      - {x: 20.075256, y: -8.276817}
+      - {x: 20.335226, y: -4.264694}
+      - {x: 20.07166, y: -6.1817245}
+      - {x: 18.834614, y: -6.1544113}
+      - {x: 18.840462, y: -7.9007835}
+      - {x: 15.866894, y: -7.96064}
+      - {x: 15.882263, y: -9.598343}
+      - {x: 15.631893, y: -9.764645}
+      - {x: 14.017817, y: -9.702671}
+      - {x: 13.994398, y: -8.361404}
+      - {x: 12.92042, y: -8.401382}
+      - {x: 12.967522, y: -9.657169}
+      - {x: 10.240139, y: -9.627731}
+      - {x: 10.248747, y: -8.188892}
+      - {x: 9.058027, y: -8.266543}
+    - - {x: 4.989624, y: -8.3551445}
+      - {x: 5.092943, y: -9.676628}
+      - {x: 3.1510372, y: -9.657455}
+      - {x: 3.116787, y: -8.395977}
+      - {x: 2.0328712, y: -8.395409}
+      - {x: 2.0646791, y: -9.653595}
+      - {x: -0.42239857, y: -9.664719}
+      - {x: -0.68975544, y: -9.327232}
+      - {x: -0.73579884, y: -7.5316467}
+      - {x: -7.1222277, y: -7.519146}
+      - {x: -7.180129, y: -5.2475243}
+      - {x: -5.9900026, y: -5.2270546}
+      - {x: -5.9887714, y: -2.4392471}
+      - {x: -6.146579, y: -2.3288002}
+      - {x: -6.5102262, y: -2.3246994}
+      - {x: -6.7699356, y: -2.817398}
+      - {x: -15.247246, y: -2.9316864}
+      - {x: -15.771216, y: -2.5316467}
+      - {x: -15.943121, y: -1.5668135}
+      - {x: -16.046768, y: -2.9749336}
+      - {x: -15.241496, y: -3.3901253}
+      - {x: -7.4227014, y: -3.34198}
+      - {x: -8.235075, y: -5.5235977}
+      - {x: -7.4443336, y: -6.4419365}
+      - {x: -7.32572, y: -7.9273796}
+      - {x: -0.9083462, y: -7.872322}
+      - {x: -0.8673849, y: -9.5425}
+      - {x: -0.42260075, y: -10.243393}
+      - {x: 2.0431576, y: -10.212387}
+      - {x: 2.0844154, y: -11.154156}
+      - {x: 3.3268185, y: -11.096512}
+      - {x: 3.3154736, y: -10.203392}
+      - {x: 5.079542, y: -10.198666}
+      - {x: 5.1584606, y: -12.337513}
+      - {x: 6.2848406, y: -12.376039}
+      - {x: 6.303328, y: -8.335545}
+--- !u!114 &-5464980293829890748
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7455120879329949120}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bdb1efb100bb5704ea1cd27b0a827937, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _marionetteKey: Linny's House
+  _isMob: 0
+--- !u!114 &-8014189422847633350
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7455120879329949120}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9e3afb0a2157060498a816a49b711eb1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  NpcKey: Linny
+  _activelyCheckUnlock: 0

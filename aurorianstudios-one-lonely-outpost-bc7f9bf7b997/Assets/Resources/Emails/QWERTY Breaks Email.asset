@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 564b307e494b0d9418d691083e4e74ee, type: 3}
+  m_Name: QWERTY Breaks Email
+  m_EditorClassIdentifier: 
+  _from: ASDF Mfg.
+  _content: "Dear Customer,\n\nWe are contacting you to let you know that  we are
+    discontinuing production of QWERTY M30w. All associated parts will also cease
+    to be manufactured. Our condolences to you for any inconvenience this may cause.
+    \n\nRegards, \n\nASDF Manufacturing"
+  _subject: Parts Discontinued

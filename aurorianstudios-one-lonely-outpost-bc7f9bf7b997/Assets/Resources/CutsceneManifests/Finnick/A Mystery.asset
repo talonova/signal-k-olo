@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 85b13f51a208de343b7e60550dd298ce, type: 3}
+  m_Name: A Mystery
+  m_EditorClassIdentifier: 
+  _conversationKey: Finnick/A Mystery
+  _checkOn: 2
+  _roomScenePath: Assets/Scenes/Rooms/Colony Outdoors.unity
+  _cutscenePrefab: {fileID: 7804747537371088902, guid: 9341b3d428b7dd74594fd01c9ca646ef,
+    type: 3}
+  _returnToRoomPath: Assets/Scenes/Rooms/Colony Outdoors.unity
+  _returnToPosition: {x: -14, y: 5.5}
+  _backgroundMusic: {fileID: 8300000, guid: b57a5265bc6fa684592ee93f40613f13, type: 3}
+  _cutsceneIsRepeatable: 0
+  _luaPlayCondition: 
+  id: c1f670a6-91bc-4621-a8af-ecf96a18fca9
